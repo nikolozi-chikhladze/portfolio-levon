@@ -26,7 +26,7 @@ export const About = () => {
         </div>
         <div className="about_row2">
           <div>
-            <div className="about_text-title">About</div>
+            <Title>About</Title>
             <div className="about_text_description">
               {ABOUT_DESCRIPTION_DATA.map(text => (
                 <Description>{text}</Description>
