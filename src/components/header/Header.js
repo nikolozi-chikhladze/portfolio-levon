@@ -4,14 +4,21 @@ import { navigate } from "gatsby"
 import { useEffect } from "react"
 
 const getActiveByLocation = location => {
-  switch (location) {
-    case "/works/":
-      return "works"
-    case "/contact/":
-      return "contact"
-    default:
-      return "about"
+  if (location.includes("works")) {
+    return "works"
+  } else if (location.includes("contact")) {
+    return "contact"
+  } else {
+    return "about"
   }
+  // switch (location) {
+  //   case location.includes("works"):
+  //     return "works"
+  //   case "/contact/":
+  //     return "contact"
+  //   default:
+  //     return "about"
+  // }
 }
 
 export const Header = ({ location }) => {

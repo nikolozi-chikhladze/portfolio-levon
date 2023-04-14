@@ -116,41 +116,51 @@ export const WORKS_DATA = [
   {
     title: "Planty App (iOS)",
     link: "/planty-app",
+    tag: "planty-app",
   },
   {
     title: "Roommate (iOS)",
     link: "/planty-app",
+    tag: "roommate",
   },
   {
     title: "List.am (Web)",
     link: "/planty-app",
+    tag: "list-am",
   },
   {
     title: "Medical App (iOS) ",
     link: "/planty-app",
+    tag: "medical-app",
   },
   {
     title: "KeepsMe (Web/Mobile)",
     link: "/planty-app",
+    tag: "keeps-me",
   },
   {
     title: "FinFly (Web)",
     link: "/planty-app",
+    tag: "fin-fly",
   },
   {
     title: "Novartis (Web) / NDA",
     link: "/planty-app",
+    tag: "novartis",
   },
   {
     title: "HCA Healthcare (Web) / NDA",
     link: "/planty-app",
+    tag: "hca-healthcare",
   },
   {
     title: "SPAARKD (iOS) / NDA",
     link: "/planty-app",
+    tag: "spaarkd",
   },
   {
     title: "Inecobank (iOS) / NDA",
     link: "/planty-app",
+    tag: "inecobank",
   },
 ]
