@@ -16,7 +16,7 @@ export const About = () => {
         <div className="about_row1">
           <StaticImage
             className="about_row1_img"
-            src="../../images/Rectangle 9.svg"
+            src="../../images/Rectangle.svg"
             loading="eager"
             // width={64}
             quality={100}

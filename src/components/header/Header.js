@@ -1,8 +1,23 @@
 import React, { useState } from "react"
 import "./header.sass"
+import { navigate } from "gatsby"
 
-export const Header = () => {
-  const [active, setActive] = useState("about")
+const getActiveByLocation = location => {
+  switch (location) {
+    case "/works/":
+      return "works"
+    case "/contact/":
+      return "contact"
+    default:
+      return "about"
+  }
+}
+
+export const Header = ({ location }) => {
+  const [active, setActive] = useState(
+    location.pathname === "/" ? "about" : getActiveByLocation(location.pathname)
+  )
+
   // TODO - implement scrolling
   return (
     <div className="header">
@@ -10,7 +25,7 @@ export const Header = () => {
       <ul className="header_nav">
         <li
           onClick={() => {
-            setActive("about")
+            navigate("/")
           }}
           className={`header_text header_nav_list-item ${
             active === "about" && "header_nav_list-item_active"
@@ -20,7 +35,7 @@ export const Header = () => {
         </li>
         <li
           onClick={() => {
-            setActive("works")
+            navigate("/works")
           }}
           className={`header_text header_nav_list-item ${
             active === "works" && "header_nav_list-item_active"
@@ -30,7 +45,8 @@ export const Header = () => {
         </li>
         <li
           onClick={() => {
-            setActive("contact")
+            // setActive("contact")
+            navigate("/contact")
           }}
           className={`header_text header_nav_list-item ${
             active === "contact" && "header_nav_list-item_active"

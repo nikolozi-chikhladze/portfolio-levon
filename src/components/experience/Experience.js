@@ -7,6 +7,10 @@ import { Description } from "../description/Description"
 import { DescriptionList } from "../description-list/DescriptionList"
 
 export const Experience = () => {
+  const getDescription = data =>
+    data.text.description.map(description => (
+      <Description>{description}</Description>
+    ))
   return (
     <div className="experience">
       <Title>Experience</Title>
@@ -21,9 +25,7 @@ export const Experience = () => {
               <span className="details-container_date">{data.date}</span>
             </div>
             <div className="text-container">
-              {data.text.description.map(description => (
-                <Description>{description}</Description>
-              ))}
+              {getDescription(data)}
               <DescriptionList
                 title={data.text.list.title}
                 items={data.text.list.items}
