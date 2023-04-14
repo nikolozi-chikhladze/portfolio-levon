@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import "./header.sass"
 import { navigate } from "gatsby"
+import { useEffect } from "react"
 
 const getActiveByLocation = location => {
   switch (location) {
@@ -14,6 +15,10 @@ const getActiveByLocation = location => {
 }
 
 export const Header = ({ location }) => {
+  useEffect(() => {
+    setActive(getActiveByLocation(location.pathname))
+  }, [location])
+
   const [active, setActive] = useState(
     location.pathname === "/" ? "about" : getActiveByLocation(location.pathname)
   )

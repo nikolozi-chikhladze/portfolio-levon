@@ -5,18 +5,6 @@ export const ABOUT_DESCRIPTION_DATA = [
   "In addition to my extensive experience in UX design, I am also highly skilled in project management, team leadership, and stakeholder communication. I understand the importance of working collaboratively with clients and stakeholders to ensure that the final product meets their needs and exceeds their expectations.",
 ]
 
-/*
-Working on a site builder project, my main responsibility is to create an intuitive and easy-to-use platform for our users. I strive to create designs that are visually appealing and user-friendly, while also meeting the needs of the business.
-To achieve this, I conduct user research to gain insights into the needs and expectations of our users. By collaborating with cross-functional teams, including developers, product managers, and customer support teams, I ensure that the design meets the needs of the business and our users.
-
-
-
-
-
-
-
-*/
-
 export const EXPERIENCE_DATA = [
   {
     company: "EPAM",
@@ -121,5 +109,48 @@ export const EXPERIENCE_DATA = [
         ],
       },
     },
+  },
+]
+
+export const WORKS_DATA = [
+  {
+    title: "Planty App (iOS)",
+    link: "/planty-app",
+  },
+  {
+    title: "Roommate (iOS)",
+    link: "/planty-app",
+  },
+  {
+    title: "List.am (Web)",
+    link: "/planty-app",
+  },
+  {
+    title: "Medical App (iOS) ",
+    link: "/planty-app",
+  },
+  {
+    title: "KeepsMe (Web/Mobile)",
+    link: "/planty-app",
+  },
+  {
+    title: "FinFly (Web)",
+    link: "/planty-app",
+  },
+  {
+    title: "Novartis (Web) / NDA",
+    link: "/planty-app",
+  },
+  {
+    title: "HCA Healthcare (Web) / NDA",
+    link: "/planty-app",
+  },
+  {
+    title: "SPAARKD (iOS) / NDA",
+    link: "/planty-app",
+  },
+  {
+    title: "Inecobank (iOS) / NDA",
+    link: "/planty-app",
   },
 ]
