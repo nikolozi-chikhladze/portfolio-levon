@@ -19,6 +19,10 @@ export const Header = ({ location }) => {
     setActive(getActiveByLocation(location.pathname))
   }, [location])
 
+  useEffect(() => {
+    console.log({ location })
+  }, [])
+
   const [active, setActive] = useState(
     location.pathname === "/" ? "about" : getActiveByLocation(location.pathname)
   )
