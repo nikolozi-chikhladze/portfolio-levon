@@ -141,27 +141,27 @@ export const WORKS_DATA = {
   },
   "fin-fly": {
     title: "FinFly (Web)",
-    link: "/planty-app",
+    link: "/fin-fly",
     tag: "fin-fly",
   },
   novartis: {
     title: "Novartis (Web) / NDA",
-    link: "/planty-app",
+    link: "/novartis",
     tag: "novartis",
   },
   "hca-healthcare": {
     title: "HCA Healthcare (Web) / NDA",
-    link: "/planty-app",
+    link: "/hca-healthcare",
     tag: "hca-healthcare",
   },
   spaarkd: {
     title: "SPAARKD (iOS) / NDA",
-    link: "/planty-app",
+    link: "/spaarkd",
     tag: "spaarkd",
   },
   inecobank: {
     title: "Inecobank (iOS) / NDA",
-    link: "/planty-app",
+    link: "/inecobank",
     tag: "inecobank",
   },
 }
@@ -919,6 +919,169 @@ export const WORKS_DATA_EXPANDED = {
       ],
     },
   ],
+  "fin-fly": [
+    {
+      title: "My Role",
+      data: [
+        { type: "text", value: "UX Researcher / UX Designer / UI Designer" },
+      ],
+    },
+    {
+      title: "About",
+      data: [
+        {
+          type: "text",
+          value:
+            "FinFly platform is owned and operated by Kinetic Finance Limited, registered in the Republic of Lithuania. The company's activities fully comply with EU standards and are regulated by European regulatory authorities (FCIS). The Republic of Lithuania is a recognized European fintech center and provides favorable conditions for doing crypto business for both companies and their clients.\nOur mission is to provide everyone with the necessary information and effective tools for successful investment in the crypto market. FinFly is closing the information gap between retail investors and professional crypto traders.",
+        },
+      ],
+    },
+    {
+      title: "Key Features",
+      data: [
+        {
+          type: "text",
+          value:
+            "Simplicity\nOur user-friendly design and the minimum investment of just $10 allow you to start working with crypto in a matter of minutes.",
+        },
+        {
+          type: "text",
+          value:
+            "Security\nFinFly is a reliable high-tech platform operating in more than 50 countries around the world on a basis of the license of the Republic of Lithuania. The company's activities fully comply with EU standards and are controlled and regulated by European regulatory authorities (FCIS).",
+        },
+        {
+          type: "text",
+          value:
+            "Service 24/7\nOur specialists process all transactions as quickly as possible, and the support team is in touch 24/7.",
+        },
+      ],
+    },
+    {
+      title: "Pain Points",
+      data: [
+        {
+          type: "text",
+          value:
+            "Users find the verification process cumbersome and time-consuming. They may face issues with the KYC (know your customer) process, which could cause delays in trading.",
+        },
+        {
+          type: "text",
+          value:
+            "Users worry about the security of their funds and personal information. They may want reassurance that the platform has implemented robust security measures, such as two-factor authentication, encryption, and insurance against hacking and theft.",
+        },
+        {
+          type: "text",
+          value:
+            "Users encounter technical issues, such as slow loading times, system crashes, and error messages. These issues could be related to the platform's infrastructure or the user's internet connection and device.",
+        },
+        {
+          type: "text",
+          value:
+            "Users find challenging to trade certain cryptocurrencies due to low liquidity on the platform. This could limit their ability to buy or sell assets at the desired price.",
+        },
+        {
+          type: "text",
+          value:
+            "Users have difficulty reaching customer support or may find the support team unresponsive or unhelpful. This could cause frustration and lead to negative reviews and feedback.",
+        },
+        {
+          type: "text",
+          value:
+            "Users find the platform's user interface confusing or overwhelming, especially if they are new to crypto trading. This could deter them from using the platform or cause them to make mistakes when placing trades.",
+        },
+        {
+          type: "text",
+          value:
+            "Users be put off by high trading fees, which could eat into their profits or make trading unaffordable for smaller investors. They may also be unhappy with hidden fees or charges, such as withdrawal fees or inactivity fees.",
+        },
+        {
+          type: "text",
+          value:
+            "Users disappointed if the platform does not support their preferred cryptocurrencies or if it has a limited selection of coins to trade. This could cause them to switch to another platform that offers a wider range of assets.",
+        },
+      ],
+    },
+    {
+      title: "Possible Solution",
+      data: [
+        {
+          type: "text",
+          value:
+            "Streamline the verification process by simplifying the KYC requirements and providing clear instructions to users. Consider implementing automated verification tools, such as facial recognition or document scanning, to speed up the process.",
+        },
+        {
+          type: "text",
+          value:
+            "Prioritize security and communicate your security measures clearly to users. Implement multi-factor authentication, encryption, and regular security audits. Offer insurance against hacking and theft to reassure users that their funds and personal information are protected.",
+        },
+        {
+          type: "text",
+          value:
+            "Monitor the platform's performance closely and address any technical issues promptly. Provide users with clear error messages and troubleshooting steps. Consider offering a mobile app to improve accessibility and speed.",
+        },
+        {
+          type: "text",
+          value:
+            "Increase liquidity by partnering with other exchanges or liquidity providers. Offer incentives, such as lower fees or higher trading volumes, to encourage users to trade on your platform.",
+        },
+        {
+          type: "text",
+          value:
+            "Invest in a dedicated customer support team that is available 24/7. Offer multiple support channels, such as email, live chat, and phone, and ensure that response times are prompt. Implement a comprehensive FAQ section and provide user guides to address common issues.",
+        },
+        {
+          type: "text",
+          value:
+            "Simplify the user interface by using clear and intuitive design elements. Provide educational resources, such as video tutorials and user guides, to help users navigate the platform. Consider offering a demo account or a sandbox environment for users to practice trading.",
+        },
+        {
+          type: "text",
+          value:
+            "Review your fee structure regularly and consider reducing fees where possible. Offer fee discounts for high-volume traders or long-term users. Be transparent about your fees and communicate them clearly to users.",
+        },
+        {
+          type: "text",
+          value:
+            "Expand your coin offerings by adding new cryptocurrencies to your platform regularly. Conduct market research to identify popular coins and offer them to users. Consider offering a voting system to allow users to suggest and vote on new coins to be added to the platform.",
+        },
+      ],
+    },
+    {
+      title: "Final Design",
+      data: [
+        {
+          type: "text",
+          value:
+            "Our crypto exchange platform, designed with the user in mind. We understand the challenges that users face when trading cryptocurrencies and have developed solutions to address these issues.",
+        },
+        {
+          type: "text",
+          value:
+            "We have simplified the verification process, making it quick and easy for users to get started. Our multi-factor authentication, encryption, and regular security audits ensure that users' funds and personal information are protected.",
+        },
+        {
+          type: "text",
+          value:
+            "Our platform is built for speed and reliability, with minimal downtime and fast loading times. In the rare event of technical issues, our support team is available 24/7 to assist users with prompt and helpful responses.",
+        },
+        {
+          type: "text",
+          value:
+            "We offer a wide range of cryptocurrencies, with a focus on liquidity and user demand. Our fees are transparent and competitive, with regular fee reviews and discounts for high-volume traders.",
+        },
+        {
+          type: "text",
+          value:
+            "Our user interface is clear and intuitive, with educational resources and a demo account available to help users get started. Our dedicated customer support team is available to answer questions and resolve issues quickly and efficiently.\nJoin us on our journey to make cryptocurrency trading accessible, secure, and enjoyable for everyone.",
+        },
+        {
+          type: "image",
+          tag: "final-design",
+          source: "../../images/work-pages/fin-fly/final-design.png",
+        },
+      ],
+    },
+  ],
 }
 
 /*
@@ -926,10 +1089,7 @@ export const WORKS_DATA_EXPANDED = {
 
 
 
-  
-  
-  
-  
+
 
 
 

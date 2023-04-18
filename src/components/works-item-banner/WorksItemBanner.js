@@ -49,6 +49,16 @@ const getBannerByTag = tag => {
           formats={["auto", "webp", "avif"]}
         />
       )
+    case "fin-fly":
+      console.log("WTF FIX IT")
+      return (
+        <StaticImage
+          src={"../../images/work-pages/fin-fly/banner.png"}
+          loading="eager"
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+        />
+      )
 
     default:
       break

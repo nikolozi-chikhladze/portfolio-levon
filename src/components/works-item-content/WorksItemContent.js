@@ -112,6 +112,16 @@ const getStaticImage = (jobKey, type) => {
         default:
           break
       }
+    case "fin-fly":
+      switch (type) {
+        case "final-design":
+          return (
+            <StaticImage src="../../images/work-pages/fin-fly/final-design.png" />
+          )
+
+        default:
+          break
+      }
   }
 }
 
