@@ -8,9 +8,9 @@ import { SegmentContainer } from "../../components/segment-container/SegmentCont
 import { Description } from "../../components/description/Description"
 import { WorksItemContent } from "../../components/works-item-content/WorksItemContent"
 
-const JOB_KEY = "planty-app"
+const JOB_KEY = "roommate"
 
-const PlantyAppPage = ({ location }) => {
+const RoommatePage = ({ location }) => {
   const item = WORKS_DATA[JOB_KEY]
   const content = WORKS_DATA_EXPANDED[JOB_KEY]
   return (
@@ -23,4 +23,4 @@ const PlantyAppPage = ({ location }) => {
   )
 }
 
-export default PlantyAppPage
+export default RoommatePage

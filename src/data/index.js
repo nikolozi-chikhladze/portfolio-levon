@@ -121,7 +121,7 @@ export const WORKS_DATA = {
   },
   roommate: {
     title: "Roommate (iOS)",
-    link: "/planty-app",
+    link: "/roommate",
     tag: "roommate",
   },
   "list-am": {
@@ -318,4 +318,110 @@ export const WORKS_DATA_EXPANDED = {
       ],
     },
   ],
+  roommate: [
+    {
+      title: "My Role",
+      data: [
+        { type: "text", value: "UX Researcher / UX Designer / UI Designer" },
+      ],
+    },
+    {
+      title: "Challenges",
+      data: [
+        {
+          type: "text",
+          value:
+            "Moving to a new city, in search of a job or for studies, have become a very common thing in today's fast paced lives. I witnessed people struggling to find a room or a roommate in a new city.\nEither the contact of landlords is not genuine or they cannot find someone of their choice for co-living.",
+        },
+      ],
+    },
+    {
+      title: "Possible Solution",
+      data: [
+        {
+          type: "text",
+          value:
+            "RoomMate bring the best solution to enable you to find your ideal roommate or a room in your ideal budget without being worried about the fake landlord contacts or a roommate with some weird habits which you are not comfortable with. You can choose your roommate after reading their living habits, moving preferences and all the other required information you need to know about your roommate.",
+        },
+        {
+          type: "text",
+          value:
+            "On RoomMate, finding a room is even easier. You can contact the landlord directly after checking the rent, images and all the amenities you need in your apartment. RoomMate is our first stop after moving to a new city.",
+        },
+      ],
+    },
+    {
+      title: "Research",
+      data: [
+        {
+          type: "text",
+          value:
+            "I conducted secondary research to identify difficulties and have a better understanding of existing conditions. Based on those inputs, I conducted primary research to better grasp the project aim and empathize with the users.",
+        },
+        {
+          type: "text",
+          value:
+            "I conducted both qualitative and quantitative research. Their responses had a pattern to them, which I recognized. I also conducted online interviews with ten other people who were asked the same quantitative questions as the survey respondents and followed the same trends.",
+        },
+        {
+          type: "image",
+          tag: "research",
+          source: "../../images/work-pages/roommate/research.png",
+        },
+      ],
+    },
+    {
+      title: "Define Users",
+      data: [
+        {
+          type: "text",
+          value:
+            "I combined users's goals into a single main user flow after considering his objectives. This allows me to better understand the steps a user will take to fulfill the objective in the most efficient manner possible, which in turn allows me to identify the information architecture the app will require to enable this flow. The most important scenario is determining what's wrong with your plant and how to treat it. The two options are to diagnose using a picture scan or to seek professional assistance.",
+        },
+        {
+          type: "image",
+          tag: "define-users",
+          source: "../../images/work-pages/roommate/define-users.png",
+        },
+      ],
+    },
+    {
+      title: "Ideate",
+      data: [
+        {
+          type: "text",
+          value:
+            'It\'s difficult to gain the perspective needed to find design solutions. I need a dedicated environment for standing back and seeking and seeing every angle to have productive ideation sessions. But first, my team must identify the appropriate problem to address. After "Empathize" (gaining user insights from research/observation) and "Define" (finding links/patterns within those insights to create a meaningful and workable problem statement or point of view).',
+        },
+        {
+          type: "image",
+          tag: "ideate",
+          source: "../../images/work-pages/roommate/ideate.png",
+        },
+      ],
+    },
+    {
+      title: "Design",
+      data: [
+        {
+          type: "text",
+          value:
+            "At the Design phase, I am ready to design an early version of the solution. This phase is one of the best ways to reveal how my users think and feel about a product or solution and can help me resolve any uncertainties around the idea I have selected. Creating multiple prototypes takes the risk out of innovation by allowing me to fail quickly – and keeps me from spending time and money on an idea that may not actually work in practice.",
+        },
+        {
+          type: "image",
+          tag: "design",
+          source: "../../images/work-pages/roommate/design.png",
+        },
+      ],
+    },
+  ],
 }
+
+/*
+
+
+
+
+
+*/

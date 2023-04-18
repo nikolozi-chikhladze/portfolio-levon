@@ -13,6 +13,15 @@ const getBannerByTag = tag => {
           formats={["auto", "webp", "avif"]}
         />
       )
+    case "roommate":
+      return (
+        <StaticImage
+          src={"../../images/work-pages/roommate/banner.png"}
+          loading="eager"
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+        />
+      )
 
     default:
       break
