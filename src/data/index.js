@@ -136,7 +136,7 @@ export const WORKS_DATA = {
   },
   "keeps-me": {
     title: "KeepsMe (Web/Mobile)",
-    link: "/planty-app",
+    link: "/keeps-me",
     tag: "keeps-me",
   },
   "fin-fly": {
@@ -748,6 +748,177 @@ export const WORKS_DATA_EXPANDED = {
       ],
     },
   ],
+  "keeps-me": [
+    {
+      title: "My Role",
+      data: [
+        {
+          type: "text",
+          value: "UX Researcher / UX Designer / UI Designer",
+        },
+      ],
+    },
+    {
+      title: "Overview",
+      data: [
+        {
+          type: "text",
+          value:
+            "Our mission is to contribute to the sustainable tourism development of Armenia through offering a win-win concept platform for both travelers and businesses. We strongly believe that sustainable tourism development makes Armenia a better place.\nOver the course of the passing decade tourism has been one of the fastest growing industries in Armenia and the touristic infrastructures have developed respectively. Small and medium businesses such as hotels, restaurants, travel and adventure agencies have been a valuable addition to the pleasant experience of growing numbers of tourists.\n2020 was expected to bring an unprecedented increase in international tourist arrivals to Armenia. Lots of new international flights were scheduled to Yerevan and Gyumri, including the ones from low cost airlines, like Ryanair and Wizz Air. Unfortunately, things changed drastically and unexpected travel restrictions caused by the pandemic affected the industry.",
+        },
+      ],
+    },
+    {
+      title: "Possible Solution",
+      data: [
+        {
+          type: "text",
+          value:
+            "At these times we keep in mind that new realities require a modern approach to keep the tourism development stable, existing infrastructures functioning and the Armenian destination attractive. To achieve these goals we have created very quickly a new Tech & Travel tool, which offers:",
+        },
+        {
+          type: "text",
+          value:
+            "- a unified voucher platform for customers with attractive discounts from a wide range of Armenian brands. Vouchers with up to 3 year’s validity period make customers’ future travel decisions flexible. Fast and secure transactions are made to carry out a carefree payment process.",
+        },
+        {
+          type: "text",
+          value:
+            "- an opportunity for local businesses to get an income in advance and provide the service in the future when things are back to normal. With no monthly or sign-up fees, the local SME’s benefit from this sales tool and marketing campaigns of Keepsme platform.",
+        },
+      ],
+    },
+    {
+      title: "Key Findings",
+      data: [
+        {
+          type: "text",
+          value:
+            "It's better to keep things simple: It can be difficult to figure out what's wrong with a plant and how to fix it.",
+        },
+        {
+          type: "text",
+          value:
+            "It is critical to keep track of time: It takes too long to look for help on the internet, and it doesn't always work. It takes far too long to determine whether or not the assistance will be useful.",
+        },
+        {
+          type: "text",
+          value:
+            "Real-life assistance: Users want to be able to get assistance from seasoned gardeners.",
+        },
+        {
+          type: "text",
+          value:
+            "Vegetables are widely consumed: Growing vegetable gardens was something that everyone enjoyed.",
+        },
+        {
+          type: "text",
+          value:
+            "The worst are pests and plant diseases: Dealing with plant problems and losing a harvest is the most aggravating and difficult thing to cope with.",
+        },
+      ],
+    },
+    {
+      title: "Paint Points",
+      data: [
+        {
+          type: "text",
+          value:
+            "I find it frustrating when the digital voucher platform I use has limited options for retailers and products. It feels like my options are restricted and I may not be able to find what I need.",
+        },
+        {
+          type: "text",
+          value:
+            "Sometimes, the platform can be slow or unresponsive, which is especially frustrating when I'm trying to make a purchase. It can be a waste of time and make me hesitant to use the platform again in the future.",
+        },
+        {
+          type: "text",
+          value:
+            "Another issue is when the platform is difficult to navigate or confusing to use. It can be overwhelming to try to find what I need and I may end up abandoning my purchase altogether.",
+        },
+        {
+          type: "text",
+          value:
+            "Lastly, I have concerns about the security of my personal information and payment details when using a digital voucher platform. I want to feel confident that my information is safe and protected from any potential breaches or cyber attacks.",
+        },
+      ],
+    },
+    {
+      title: "Possible Solution",
+      data: [
+        {
+          type: "text",
+          value:
+            "As a possible solution to the frustration of limited options for retailers and products, digital voucher platforms could consider expanding their partnerships with more retailers to offer a wider range of choices for users. They could also offer personalized recommendations based on users' past purchases or preferences.\nTo address the issue of slow or unresponsive platforms, digital voucher platforms could improve their technical infrastructure and invest in more reliable servers to ensure smooth and speedy transactions. They could also offer multiple payment options to prevent payment failures due to network issues.\nIn order to make the platform more user-friendly, digital voucher platforms could redesign their interface to make it more intuitive and easy to navigate. They could also offer filters and search options to help users find what they are looking for more quickly and efficiently.\nTo alleviate concerns about security, digital voucher platforms could implement stronger data encryption measures and ensure compliance with industry standards for data protection. They could also provide clear and transparent information about their data protection policies and procedures to give users peace of mind when using the platform.",
+        },
+      ],
+    },
+    {
+      title: "Research",
+      data: [
+        {
+          type: "text",
+          value:
+            "In September 2021, our team initiated a comprehensive effort to create and integrate a design system across all the company's products. At that time, the company was using separate UI kits for each product, which although functional, presented limitations and risks. The creation of a centralized design system was deemed necessary to address these challenges.",
+        },
+        {
+          type: "text",
+          value:
+            "As someone who thrives on taking on new challenges, I was honored to be selected as a lead in this process.",
+        },
+        {
+          type: "titledSegment",
+          title: "Contributions",
+          items: [
+            "Led an active phase of work on a company design system",
+            "Created and maintained company design system and interface guidelines",
+            "Active role in the planning and control of the development team",
+            "Heavily involved in the process of integrating the design system into company products (strategic planning, brainstorming/creativity, communication with external teams)",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Achievements",
+      data: [
+        {
+          type: "text",
+          value:
+            "List of places which can provide you a voucher with detailed description and usage rules.",
+        },
+        {
+          type: "text",
+          value:
+            "Rating system which can be useful for tourists and foreign citizens that live in Armenia.",
+        },
+        {
+          type: "text",
+          value:
+            "Clean summary of most relevant information. Quick access to wallets and stats as well as transactions.",
+        },
+        {
+          type: "text",
+          value:
+            "Multi-directional scalability and end-to-end management through dealer onboarding, hierarchy management and custom business rules within a table view.",
+        },
+        {
+          type: "text",
+          value:
+            "Exporting yearly/monthly/daily reports in a format which is worked for you the best.",
+        },
+        {
+          type: "text",
+          value:
+            "Separate portal for the partners with additional information which will help with integrating with system.",
+        },
+        {
+          type: "image",
+          tag: "achievements",
+          source: "../../images/work-pages/keeps-me/achievemnts.png",
+        },
+      ],
+    },
+  ],
 }
 
 /*
@@ -755,11 +926,10 @@ export const WORKS_DATA_EXPANDED = {
 
 
 
-
-
-
-
-
+  
+  
+  
+  
 
 
 

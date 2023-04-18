@@ -102,6 +102,16 @@ const getStaticImage = (jobKey, type) => {
         default:
           break
       }
+    case "keeps-me":
+      switch (type) {
+        case "achievements":
+          return (
+            <StaticImage src="../../images/work-pages/keeps-me/achievements.png" />
+          )
+
+        default:
+          break
+      }
   }
 }
 

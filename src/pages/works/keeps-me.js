@@ -9,9 +9,9 @@ import { Description } from "../../components/description/Description"
 import { WorksItemContent } from "../../components/works-item-content/WorksItemContent"
 import { Footer } from "../../components/footer/Footer"
 
-const JOB_KEY = "list-am"
+const JOB_KEY = "keeps-me"
 
-const ListAmPage = ({ location }) => {
+const KeepsMePage = ({ location }) => {
   const item = WORKS_DATA[JOB_KEY]
   const content = WORKS_DATA_EXPANDED[JOB_KEY]
   return (
@@ -25,4 +25,4 @@ const ListAmPage = ({ location }) => {
   )
 }
 
-export default ListAmPage
+export default KeepsMePage

@@ -7,10 +7,11 @@ import { WorksItemBanner } from "../../components/works-item-banner/WorksItemBan
 import { SegmentContainer } from "../../components/segment-container/SegmentContainer"
 import { Description } from "../../components/description/Description"
 import { WorksItemContent } from "../../components/works-item-content/WorksItemContent"
+import { Footer } from "../../components/footer/Footer"
 
 const JOB_KEY = "medical-app"
 
-const PlantyAppPage = ({ location }) => {
+const MedicalAppPage = ({ location }) => {
   const item = WORKS_DATA[JOB_KEY]
   const content = WORKS_DATA_EXPANDED[JOB_KEY]
   return (
@@ -19,8 +20,9 @@ const PlantyAppPage = ({ location }) => {
       <WorksItemHeader title={item.title} />
       <WorksItemBanner tag={item.tag} />
       <WorksItemContent content={content} jobKey={JOB_KEY} />
+      <Footer />
     </div>
   )
 }
 
-export default PlantyAppPage
+export default MedicalAppPage
