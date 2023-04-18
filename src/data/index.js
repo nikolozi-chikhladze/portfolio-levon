@@ -112,55 +112,210 @@ export const EXPERIENCE_DATA = [
   },
 ]
 
-export const WORKS_DATA = [
-  {
+export const WORKS_DATA = {
+  "planty-app": {
     title: "Planty App (iOS)",
     link: "/planty-app",
     tag: "planty-app",
+    banner: "../../images/work-pages/planty-app/banner.png",
   },
-  {
+  roommate: {
     title: "Roommate (iOS)",
     link: "/planty-app",
     tag: "roommate",
   },
-  {
+  "list-am": {
     title: "List.am (Web)",
     link: "/planty-app",
     tag: "list-am",
   },
-  {
+  "medical-app": {
     title: "Medical App (iOS) ",
     link: "/planty-app",
     tag: "medical-app",
   },
-  {
+  "keeps-me": {
     title: "KeepsMe (Web/Mobile)",
     link: "/planty-app",
     tag: "keeps-me",
   },
-  {
+  "fin-fly": {
     title: "FinFly (Web)",
     link: "/planty-app",
     tag: "fin-fly",
   },
-  {
+  novartis: {
     title: "Novartis (Web) / NDA",
     link: "/planty-app",
     tag: "novartis",
   },
-  {
+  "hca-healthcare": {
     title: "HCA Healthcare (Web) / NDA",
     link: "/planty-app",
     tag: "hca-healthcare",
   },
-  {
+  spaarkd: {
     title: "SPAARKD (iOS) / NDA",
     link: "/planty-app",
     tag: "spaarkd",
   },
-  {
+  inecobank: {
     title: "Inecobank (iOS) / NDA",
     link: "/planty-app",
     tag: "inecobank",
   },
-]
+}
+
+export const WORKS_DATA_VALUES = Object.values(WORKS_DATA)
+
+export const WORKS_DATA_EXPANDED = {
+  "planty-app": [
+    {
+      title: "My Role",
+      data: [
+        {
+          type: "text",
+          value: "UX Researcher / UX Designer / UI Designer",
+        },
+      ],
+    },
+    {
+      title: "Pain Points",
+      data: [
+        {
+          type: "text",
+          value:
+            "As a result of the Covid-19 outbreak, a large number of people have begun gardening for the first time. With the influx of new gardeners comes a slew of concerns about how to cultivate and care for their plants. Time and fear of failure are the two most common reasons why individuals do not garden.\nNew gardeners have a lot of questions about gardening and are more likely to fail if they don't obtain the guidance they need. If you fail, you'll stop gardening completely, which will result in fewer gardening customers. It is necessary to design items that make gardening easier in order to keep people gardening. There is a chance to create better garden education solutions to assist people save time and enjoy their gardening experience.",
+        },
+      ],
+    },
+    {
+      title: "Possible Solution",
+      data: [
+        {
+          type: "text",
+          value:
+            "Create a digital solution for receiving help with plants and caring for them - an app that allows gardeners to quickly and easily identify and fix issues with their plants.",
+        },
+        {
+          type: "text",
+          value:
+            "Planty is a plant care software that provides answers and assistance with plant care to help gardeners have more success in the garden.",
+        },
+      ],
+    },
+    {
+      title: "Key Findings",
+      data: [
+        {
+          type: "text",
+          value:
+            "It's better to keep things simple: It can be difficult to figure out what's wrong with a plant and how to fix it.",
+        },
+        {
+          type: "text",
+          value:
+            "It is critical to keep track of time: It takes too long to look for help on the internet, and it doesn't always work. It takes far too long to determine whether or not the assistance will be useful.",
+        },
+        {
+          type: "text",
+          value:
+            "Real-life assistance: Users want to be able to get assistance from seasoned gardeners.",
+        },
+        {
+          type: "text",
+          value:
+            "Vegetables are widely consumed: Growing vegetable gardens was something that everyone enjoyed.",
+        },
+        {
+          type: "text",
+          value:
+            "The worst are pests and plant diseases: Dealing with plant problems and losing a harvest is the most aggravating and difficult thing to cope with.",
+        },
+      ],
+    },
+    {
+      title: "Wireframe",
+      data: [
+        {
+          type: "text",
+          value:
+            "After I'd looked at a few choices and decided on a design I liked, I started building low-fidelity wireframes in Figma, focusing on the golden path scenario and elements that I thought would be most useful to consumers.",
+        },
+        {
+          type: "image",
+          tag: "wireframe",
+          source: "../../images/work-pages/planty-app/wireframe.png",
+        },
+      ],
+    },
+    {
+      title: "Testing",
+      data: [
+        {
+          type: "text",
+          value:
+            "I used Userberry to develop test scenarios with the high-fidelity prototype to get user feedback on the app design, core user processes, and detect usability concerns.",
+        },
+        {
+          type: "text",
+          value:
+            "There will be a total of 10 participants, with a mix of gardeners and designers. Background: You're a beginner gardener who just started a garden, but you're having trouble with your plants and don't know what's wrong.",
+        },
+        {
+          type: "titledSegment",
+          title: "Tasks",
+          items: [
+            "Task 1: You have a new plant with a problem. Show me how you would figure out what problem your new plant is having and how to treat it.",
+            "Task 2: You have a question about your plant which you would like to ask a garden expert for help with. Show me how you would ask for help.",
+            "Task 3: You received a notification that a pro has responded to your question. Please show me how you would check this message.",
+          ],
+        },
+        {
+          type: "titledSegment",
+          title: "Feedback",
+          items: [
+            "90% Task Completion: The large number of users completed through the tasks of diagnosing their plant problem and treatment options, as well as contacting or responding to an Expert. Making the flow simpler and the options more obvious could benefit users who were having trouble.",
+            '80% Helpful App: This app was found to be useful for gardening by all participants. The "Ask an Expert" function was well received by users.',
+            "25% Missclick Rate: Users have suggested that the home page and plant cards be made simpler. The flow of adding plants will be more transparent if redundancy of controls is removed.",
+          ],
+        },
+        {
+          type: "image",
+          tag: "testing",
+          source: "../../images/work-pages/planty-app/testing.png",
+        },
+      ],
+    },
+    {
+      title: "Final UI",
+      data: [
+        {
+          type: "text",
+          value:
+            "Overall, it was a great experience, and I learnt a lot, including about mobile and iOS design patterns, as well as got to stretch my UX muscles. The following are some key takeaways:",
+        },
+        {
+          type: "text",
+          value:
+            "Iteration produces better results - After constructing and testing the high-fidelity prototype, data revealed that the majority of users comprehended the design and found it useful - we achieved our aim. However, simply attaining the target does not suggest that the product is ready to ship. The user had a better experience as a result of iterating on the design based on their feedback and using superior craftsmanship through design principles.",
+        },
+        {
+          type: "text",
+          value:
+            "Simplicity is crucial - the user should be able to see what their next action is on each screen and at each step in the process, and redundancy should be eliminated. The more the Ul can be simplified to focus on the essential goal that the user is attempting to do, the better.",
+        },
+        {
+          type: "text",
+          value:
+            "Initial states are critical - Early prototypes put users in a situation where they were using the app for the second or third time. This is how the design began because I needed to expand out plant cards, notifications, and reminders. However, this only added to the confusion, therefore even in the early prototypes, these first run stages and instructional moments should be built.",
+        },
+        {
+          type: "image",
+          tag: "final-ui",
+          source: "../../images/work-pages/planty-app/final-ui.png",
+        },
+      ],
+    },
+  ],
+}

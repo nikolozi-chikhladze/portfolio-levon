@@ -3,8 +3,9 @@ import "./WorksList.sass"
 import { Title } from "../title/Title"
 import { SegmentContainer } from "../segment-container/SegmentContainer"
 import { StaticImage } from "gatsby-plugin-image"
-import { WORKS_DATA } from "../../data"
+import { WORKS_DATA_VALUES } from "../../data"
 import { Footer } from "../footer/Footer"
+import { navigate } from "gatsby"
 
 export const WorksList = () => {
   const [selectedElement, setSelectedElement] = useState(null)
@@ -115,7 +116,7 @@ export const WorksList = () => {
   }
 
   const getListItems = () =>
-    WORKS_DATA.map(data => (
+    WORKS_DATA_VALUES.map(data => (
       <li
         onMouseEnter={onElementHover(data.tag)}
         className="works-list_list-item"
@@ -131,7 +132,7 @@ export const WorksList = () => {
       </li>
     ))
   const navigateToItem = link => () => {
-    console.log(link)
+    navigate(`/works${link}`)
   }
   return (
     <div className="works-list_container">
