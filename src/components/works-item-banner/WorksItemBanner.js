@@ -59,6 +59,16 @@ const getBannerByTag = tag => {
           formats={["auto", "webp", "avif"]}
         />
       )
+    case "novartis":
+      console.log("WTF FIX IT")
+      return (
+        <StaticImage
+          src={"../../images/work-pages/novartis/banner.png"}
+          loading="eager"
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+        />
+      )
 
     default:
       break

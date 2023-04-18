@@ -1082,9 +1082,114 @@ export const WORKS_DATA_EXPANDED = {
       ],
     },
   ],
+  novartis: [
+    {
+      title: "My Role",
+      data: [
+        { type: "text", value: "UX Researcher / UX Designer / UX Consultant" },
+      ],
+    },
+    {
+      title: "About",
+      data: [
+        {
+          type: "text",
+          value:
+            "Data 42 is a strategic initiative at Novartis targeting developing of the next-gen platform for data analytics.",
+        },
+      ],
+    },
+    {
+      title: "Responsibilities",
+      data: [
+        {
+          type: "text",
+          value:
+            "I understand that my role is crucial in creating a successful product that meets the needs and expectations of my target audience. To achieve this, I always start by conducting thorough user research using methods such as surveys, interviews, and observations. Through this process, I identify user needs, behaviors, and pain points, which I analyze to derive patterns and insights.",
+        },
+        {
+          type: "text",
+          value:
+            "With this information, I proceed to determine the information architecture of the product. This step involves creating a sitemap that outlines the structure of the website or app and how users will navigate through it. I always design the information architecture with the user in mind, ensuring that it's easy for them to find the information they need quickly and easily.",
+        },
+        {
+          type: "text",
+          value:
+            "Once I have created the sitemap, I then move to create prototypes and wireframes. These tools are essential for testing and iterating on my design, making it more user-friendly and intuitive. I create an interactive prototype that simulates how users will interact with the product and a wireframe that shows the layout and functionality of each page. These tools enable me to test the product with users and make necessary adjustments to improve the user experience.",
+        },
+        {
+          type: "text",
+          value:
+            "Overall, as a UX designer, I understand that each step of the product development process is crucial to create a product that meets the needs of my users. Through my user research, information architecture, and prototyping, I can ensure that my design is user-friendly and intuitive, providing an excellent user experience.",
+        },
+      ],
+    },
+    {
+      title: "User Research",
+      data: [
+        {
+          type: "text",
+          value:
+            "During the user interviews, I aimed to understand the typical tasks that users perform while working with Real World Data and the specific challenges they face while using the Medical Code List Builder (MCLB). I asked questions about their workflow, the tools they use, and their pain points in the process.",
+        },
+        {
+          type: "text",
+          value:
+            "Based on the feedback I received from the interviews, I was able to identify common themes and patterns in the users' experiences. This information will be valuable in creating a more user-friendly and efficient tool for working with Real World Data and specifically the\nMedical Code List Builder. I plan to use the insights gained from these interviews to improve the design and functionality of MCLB and create a more intuitive user experience for those who work with Real World Data.",
+        },
+      ],
+    },
+    {
+      title: "Analyse Interview",
+      data: [
+        {
+          type: "text",
+          value:
+            "Creating the Confluence page and documenting the observations and soundbites allowed me to effectively communicate the findings from the user interviews to my team. By prioritizing users' pain points, we can focus our efforts on improving the most critical aspects of the tool, which will have the greatest impact on the user experience.",
+        },
+        {
+          type: "text",
+          value:
+            "In addition to documenting pain points, I also identified areas where users expressed satisfaction and provided positive feedback. This information is equally important as it allows us to understand what is working well and build upon those strengths to further enhance the user experience. With a clear understanding of users' needs and pain points, we can make informed decisions and develop a more effective and user-friendly Medical Code List Builder tool.",
+        },
+      ],
+    },
+    {
+      title: "User Journey",
+      data: [
+        {
+          type: "text",
+          value:
+            "Creating a User Journey Map was a crucial step in addressing knowledge gaps about the system from both stakeholder's and developer's perspectives. By visualizing the general flows of the system and the pain points experienced by users, we were able to gain a deeper understanding of the user experience and identify areas where improvements could be made.",
+        },
+        {
+          type: "text",
+          value:
+            "Presenting the User Journey Map to stakeholders and developers allowed us to align our understanding of the system and its shortcomings. It also provided an opportunity to discuss potential solutions and prioritize areas for improvement. The User Journey Map served as a useful tool for facilitating communication and collaboration between different teams, ultimately leading to a more effective and user-friendly Medical Code List Builder tool.",
+        },
+      ],
+    },
+    {
+      title: "Design System Support",
+      data: [
+        {
+          type: "text",
+          value:
+            "Working with a Design System based on the Blueprint Framework allowed me to maintain consistency and efficiency in the design and development process. By keeping the design system up to date during the implementation of new features, I ensured that all components were in sync with the latest design standards and guidelines.",
+        },
+        {
+          type: "text",
+          value:
+            "In addition to using the existing components, I also created new layouts to increase the flexibility of the system. These new layouts were designed with the user in mind, ensuring that they were intuitive and easy to use. By leveraging the existing design system and creating new layouts as needed, I was able to streamline the design and development process, resulting in a more cohesive and user-friendly Medical Code List Builder tool.",
+        },
+      ],
+    },
+  ],
 }
 
 /*
+
+
 
 
 
