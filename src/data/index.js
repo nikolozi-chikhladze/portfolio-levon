@@ -126,7 +126,7 @@ export const WORKS_DATA = {
   },
   "list-am": {
     title: "List.am (Web)",
-    link: "/planty-app",
+    link: "/list-am",
     tag: "list-am",
   },
   "medical-app": {
@@ -416,10 +416,209 @@ export const WORKS_DATA_EXPANDED = {
       ],
     },
   ],
+  "list-am": [
+    {
+      title: "My Role",
+      data: [
+        { type: "text", value: "UX Researcher / UX Designer / UI Designer" },
+      ],
+    },
+    {
+      title: "About",
+      data: [
+        {
+          type: "text",
+          value:
+            "List.am is the largest Armenian community and classifieds site for all types of goods, services and offers. The entire country knows, loves and uses List.am. Here you can buy and sell almost anything: from the real estate, cars and electronics to clothing, children's items and consumer goods, as well as find various services and jobs",
+        },
+      ],
+    },
+    {
+      title: "Why I Conducted\nResearch",
+      data: [
+        {
+          type: "text",
+          value:
+            "List.am is the number one online store for buying and selling items by internet, either between an official entity and the client, or between users of the same platform. Currently, it is fully diversified and cataloged in different product lines, offering DVDs, music CDs, software, video games, electronics, clothes, furniture, food, books, etc. It is the most valuable retail brand in Armenia. Being one of the most recognized sites in Armenia, I want to know how users interact on the platform in order to discover the pain points and thus improve the experience and usability",
+        },
+      ],
+    },
+    {
+      title: "Problems",
+      data: [
+        {
+          type: "text",
+          value:
+            "I have observed that the website in general lacks clarity in the search for its products, causing waste of time and difficulties when choosing and buying. Another point of observation was the product page that has too much information and the CTAs go unnoticed; which causes fatigue in the reading, confusion on the part of the consumer and loss of possible conversions.",
+        },
+      ],
+    },
+    {
+      title: "Value Proposition",
+      data: [
+        {
+          type: "text",
+          value:
+            'To improve the user experience and increase conversions, convert the most "renowned e-Commerce" platform into a modern, welcoming, and intuitive site. Maintaining user confidence in the site while keeping them informed.',
+        },
+      ],
+    },
+    {
+      title: "Research",
+      data: [
+        {
+          type: "text",
+          value:
+            "Through interviews, questionnaires, usability tests, and other types of feedback approaches, user research aims to understand user behaviors, needs, and motivations. It is applied to comprehend how consumers interact with items and assess the suitability of design solutions.",
+        },
+        {
+          type: "image",
+          tag: "research",
+          source: "../../images/work-pages/list-am/research.png",
+        },
+      ],
+    },
+    {
+      title: "Define Users",
+      data: [
+        {
+          type: "text",
+          value:
+            'I began defining our users using the Define phase after the Discovery phase. The main goal is to gain insights from the data gathered during the Discovery phase, shifting away from "what" people want, think they need, or need to know to "why" they want it. Designers verify that the team\'s most crucial presumptions are true throughout this phase.',
+        },
+        {
+          type: "text",
+          value:
+            "I were able to gain a deeper understanding of the users' motivations and issues throughout the discovery phase. Therefore, we have provided the functional requirements in the form of Jobs to be done tales in order to develop a solution that will satisfy these needs.",
+        },
+        {
+          type: "image",
+          tag: "define-users",
+          source: "../../images/work-pages/list-am/define-users.png",
+        },
+      ],
+    },
+    {
+      title: "Problems to Resolve /\nValue Proposal",
+      data: [
+        {
+          type: "titledSegment",
+          title: "Problems to Resolve",
+          items: [
+            "The website presents an unintuitive search engine; causing the user to get lost among so much information. It is confusing and unclear to start searching for a product, and many times they do not end up finding anything, generating frustration for the user and a loss of conversion for List.am. Like the use of filters: they are not as precise, they are repeated and they are very extensive. Confusing product page I have observed that the product page does not present a visible and clear CTA, causing losses in possible conversions. There is too much information that ends up distracting the user and is not relevant, causing confusion.",
+            'The graphics are not very clear, indicating that the product does not entice customers to buy it. Finally, this section of the site is far too long, leaving "the most important" at the bottom of the page, and the user never scrolls far enough to read everything. When I first visit the website, I see a lack of visual hierarchy, many sections that are chaotic, excess material that causes confusion in the user, and slow desertion of the site if the user has never visited the platform before. It also has an out-of-date design and is missing reading levels.',
+          ],
+        },
+        {
+          type: "titledSegment",
+          title: "Value Proposal",
+          items: [
+            "The website presents an unintuitive search engine; causing the user to get lost among so much information. It is confusing and unclear to start searching for a product, and many times they do not end up finding anything, generating frustration for the user and a loss of conversion for List.am. Like the use of filters: they are not as precise, they are repeated and they are very extensive. Confusing product page I have observed that the product page does not present a visible and clear CTA, causing losses in possible conversions. There is too much information that ends up distracting the user and is not relevant, causing confusion.",
+            'The graphics are not very clear, indicating that the product does not entice customers to buy it. Finally, this section of the site is far too long, leaving "the most important" at the bottom of the page, and the user never scrolls far enough to read everything. When I first visit the website, I see a lack of visual hierarchy, many sections that are chaotic, excess material that causes confusion in the user, and slow desertion of the site if the user has never visited the platform before. It also has an out-of-date design and is missing reading levels.',
+          ],
+        },
+        {
+          type: "image",
+          tag: "problems-value",
+          source: "../../images/work-pages/list-am/problems-value.png",
+        },
+      ],
+    },
+    {
+      title: "Customer Needs /\nObjective & Goals",
+      data: [
+        {
+          type: "titledSegment",
+          title: "Customer Needs",
+          items: [
+            "Maintain active users, stay current with new technology, and provide a tailored site to make the user feel at ease. Client at the center: putting the customer at the center of all decisions is List.am's key decision. The organization is continually working to increase customer happiness by offering competitive prices, expanding its offering, simplifying the purchasing procedure, and making it as simple as possible to return things. Being a slave to your desires: Extending delivery options and improving the experience And that the site caters to different types of users. Instill trust and security.",
+            "Offer a straightforward, easy-to-use platform with the highest number of products and price ranges for all types of customers, including buyers and sellers who use the site as a profit-generating intermediary.",
+          ],
+        },
+        {
+          type: "titledSegment",
+          title: "Objectives & Goals",
+          items: [
+            "In consideration of what I've been studying, I've realized that I need to concentrate on the following points: Enhance the user interface: Redesign the UI to make it more intuitive and to make searching and navigating easier. This not only reduce pain, but it also helps users to execute activities more quickly without being distracted from their primary goal.",
+            "Make the product page and the search procedure easier. Reduce the amount of unnecessary and lengthy content on each product page. Improve the filters and make the search process more intuitive (make them more precise). Carry out an onboarding of all the List.am site has to offer in the future, since there are many things concealed by the disarray in the information arrangement. Provide discounts or reward points for using the platform.",
+          ],
+        },
+        {
+          type: "image",
+          tag: "customer-goals",
+          source: "../../images/work-pages/list-am/customer-goals.png",
+        },
+      ],
+    },
+    {
+      title: "Develop",
+      data: [
+        {
+          type: "text",
+          value:
+            "I began approaching information architecture in this manner based on the outcomes of card sorting and my overall research. It was decided to restructure the categories, limiting the diversity so that the user does not become disoriented. The visual hierarchy of key items that are more visible to users has also been raised. Only the most relevant sessions were retained.",
+        },
+        {
+          type: "image",
+          tag: "develop",
+          source: "../../images/work-pages/list-am/develop.png",
+        },
+      ],
+    },
+    {
+      title: "Wireframe",
+      data: [
+        {
+          type: "text",
+          value:
+            "After evaluating my findings, I began creating low-fidelity wireframes in Figma, focusing on the golden path scenario and the elements I believed users would find most useful. I used these data to create a list of things on the top left side of the screen, and then moved them as it was displayed. Then I rewrote the process of visualizing the diagram around the dots and began to see how to do it as an object.",
+        },
+        {
+          type: "text",
+          value:
+            "I started generating high-fidelity wireframes in Figma after reviewing my research and analysis, concentrating on the golden path scenario and components that I thought would be most valuable to consumers. At the end of the day, my goal was to create a great product, based on the experiences I'd had with products that sell well on the market and would not sell to consumers. It'd be hard to find compelling value in products that do not sell well, and at least I'd have a good sense of the customer as a general rule, not his specific value. My goal was to maximize value out of existing products.",
+        },
+        {
+          type: "image",
+          tag: "wireframe",
+          source: "../../images/work-pages/list-am/wireframe.png",
+        },
+      ],
+    },
+    {
+      title: "User Testing",
+      data: [
+        {
+          type: "text",
+          value:
+            "A crucial step in the UX design process is user testing. It usually involves assessing a product by doing research on it with your representative users. The most effective way to perform user testing is through face-to-face, one-on-one interviews. With the help of this research methodology, detailed knowledge of user behavior patterns, preferences, and viewpoints may be acquired in order to incorporate this input into a more successful product. Testing early on in the design phase enables you to deploy a user-friendly product while avoiding future redesign costs. Since the purpose of the session is to collect qualitative data, testing doesn't require a large sample of participants.",
+        },
+        {
+          type: "image",
+          tag: "unit-tests",
+          source: "../../images/work-pages/list-am/unit-tests.png",
+        },
+      ],
+    },
+    {
+      title: "UI / Design System",
+      data: [
+        {
+          type: "text",
+          value:
+            "A crucial step in the UX design process is user testing. It usually involves assessing a product by doing research on it with your representative users. The most effective way to perform user testing is through face-to-face, one-on-one interviews. With the help of this research methodology, detailed knowledge of user behavior patterns, preferences, and viewpoints may be acquired in order to incorporate this input into a more successful product. Testing early on in the design phase enables you to deploy a user-friendly product while avoiding future redesign costs. Since the purpose of the session is to collect qualitative data, testing doesn't require a large sample of participants.",
+        },
+        {
+          type: "image",
+          tag: "ui-system",
+          source: "../../images/work-pages/list-am/ui-system.png",
+        },
+      ],
+    },
+  ],
 }
 
 /*
-
 
 
 

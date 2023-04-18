@@ -22,6 +22,15 @@ const getBannerByTag = tag => {
           formats={["auto", "webp", "avif"]}
         />
       )
+    case "list-am":
+      return (
+        <StaticImage
+          src={"../../images/work-pages/list-am/banner.png"}
+          loading="eager"
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+        />
+      )
 
     default:
       break

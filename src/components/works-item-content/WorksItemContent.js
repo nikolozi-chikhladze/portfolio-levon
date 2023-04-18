@@ -47,6 +47,45 @@ const getStaticImage = (jobKey, type) => {
         default:
           break
       }
+    case "list-am":
+      switch (type) {
+        case "research":
+          return (
+            <StaticImage src="../../images/work-pages/list-am/research.png" />
+          )
+        case "define-users":
+          return (
+            <StaticImage src="../../images/work-pages/list-am/define-users.png" />
+          )
+        case "problems-value":
+          return (
+            <StaticImage src="../../images/work-pages/list-am/problems-value.png" />
+          )
+        case "customer-goals":
+          return (
+            <StaticImage src="../../images/work-pages/list-am/customer-goals.png" />
+          )
+        case "develop":
+          return (
+            <StaticImage src="../../images/work-pages/list-am/develop.png" />
+          )
+        case "wireframe":
+          return (
+            <StaticImage src="../../images/work-pages/list-am/wireframe.png" />
+          )
+        case "unit-tests":
+          console.log("WTF FIX IT")
+          return (
+            <StaticImage src="../../images/work-pages/list-am/unit-tests.png" />
+          )
+        case "ui-system":
+          return (
+            <StaticImage src="../../images/work-pages/list-am/ui-system.png" />
+          )
+
+        default:
+          break
+      }
   }
 }
 
