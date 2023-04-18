@@ -79,6 +79,26 @@ const getBannerByTag = tag => {
           formats={["auto", "webp", "avif"]}
         />
       )
+    case "spvrkd":
+      console.log("WTF FIX IT 99???")
+      return (
+        <StaticImage
+          src={"../../images/work-pages/spvrkd/banner.png"}
+          loading="eager"
+          quality={99}
+          formats={["auto", "webp", "avif"]}
+        />
+      )
+    case "inecobank":
+      console.log("WTF FIX IT 99???")
+      return (
+        <StaticImage
+          src={"../../images/work-pages/inecobank/banner.png"}
+          loading="eager"
+          quality={99}
+          formats={["auto", "webp", "avif"]}
+        />
+      )
 
     default:
       break

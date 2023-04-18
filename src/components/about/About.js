@@ -12,7 +12,7 @@ export const About = () => {
     <div className="about">
       <Title>Levon Kostandian</Title>
 
-      <SegmentContainer>
+      <SegmentContainer noWrap>
         <div className="about_row1">
           <StaticImage
             className="about_row1_img"

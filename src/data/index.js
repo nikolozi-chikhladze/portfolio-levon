@@ -154,10 +154,10 @@ export const WORKS_DATA = {
     link: "/hca-healthcare",
     tag: "hca-healthcare",
   },
-  spaarkd: {
-    title: "SPAARKD (iOS) / NDA",
-    link: "/spaarkd",
-    tag: "spaarkd",
+  spvrkd: {
+    title: "SPVRKD (iOS) / NDA",
+    link: "/spvrkd",
+    tag: "spvrkd",
   },
   inecobank: {
     title: "Inecobank (iOS) / NDA",
@@ -1256,24 +1256,214 @@ export const WORKS_DATA_EXPANDED = {
       ],
     },
   ],
+  spvrkd: [
+    { title: "My Role", data: [{ type: "text", value: "UI Designer" }] },
+    {
+      title: "About",
+      data: [
+        {
+          type: "text",
+          value:
+            "The creative spark for real sustainable change within the fashion industry that unlocks the full potential of product makers, creators, collaborators and global communities. Discovery phase for SPVRKD 1.0 and parallel development.",
+        },
+      ],
+    },
+    {
+      title: "Responsibilities",
+      data: [
+        {
+          type: "text",
+          value:
+            "I have taken a leading role in establishing a consistent visual language and design approach across various products and platforms. I have worked closely with stakeholders and cross-functional teams to ensure that the design system meets the needs of the business, the users, and the development team.",
+        },
+        {
+          type: "text",
+          value:
+            "In addition to my design system work, I have participated in various workshops to facilitate collaboration and alignment across teams. I have also supported the development team by providing design deliverables, such as wireframes, prototypes, and high-fidelity mockups, that are in line with the design system guidelines.",
+        },
+        {
+          type: "text",
+          value:
+            "Overall, my contributions have been instrumental in helping the team achieve their goals and deliver high-quality products that are both visually appealing and user-friendly.",
+        },
+      ],
+    },
+    {
+      title: "Challenges",
+      data: [
+        {
+          type: "text",
+          value:
+            "Working on a project with tight deadlines can be challenging, but with my experience, I have learned to manage my time effectively and prioritize tasks to ensure that the project is completed on time. This involves setting realistic timelines, breaking down the work into manageable tasks, and regularly checking in with team members to ensure that everyone is on track.\nIn addition to tight deadlines, I have also worked on projects with complex user flows. These types of projects require a deep understanding of user needs and behaviors, as well as the ability to create interfaces that are intuitive and easy to use. I have experience conducting user research, creating user personas, and mapping out user journeys to ensure that the design meets the needs of the target audience.\nTo tackle complex user flows, I use a variety of techniques such as user testing, prototyping, and iterative design to ensure that the user interface is effective and meets the goals of the project. I also work closely with cross-functional teams to ensure that everyone understands the user flows and has input into the design process.",
+        },
+      ],
+    },
+    {
+      title: "Stakeholder\nEngagement",
+      data: [
+        {
+          type: "text",
+          value:
+            "Stakeholder engagement is a topic that I find incredibly important and interesting. As someone who has worked on various projects in the past, I understand the value of involving stakeholders in decision-making processes.\nIn my experience, stakeholder engagement is not only about gathering information and feedback from stakeholders, but it is also about building relationships and trust with them. By engaging with stakeholders and demonstrating a willingness to listen to their concerns and ideas, you can create a sense of ownership and buy-in for the project's goals and outcomes.\nMoreover, stakeholder engagement can help to identify potential risks, challenges, and opportunities that may not be apparent to the project team. By involving stakeholders from diverse backgrounds and perspectives, you can gain insights into their unique needs and expectations and design solutions that are more inclusive and effective.\nHowever, stakeholder engagement is not always easy or straightforward. It can be time-consuming, resource-intensive, and require a considerable amount of communication and coordination. Moreover, stakeholders may have conflicting interests or agendas, which can lead to disagreements and tensions.\nDespite these challenges, I believe that stakeholder engagement is an essential aspect of any successful project. By engaging with stakeholders and involving them in decision-making processes, you can create more sustainable, equitable, and impactful outcomes that meet the needs of all stakeholders involved.",
+        },
+      ],
+    },
+    {
+      title: "Final UI",
+      data: [
+        {
+          type: "text",
+          value:
+            "As a modern and innovative app development company, we are always striving to create apps that are not only functional but also visually appealing and fashionable. We understand that in today's fast-paced digital world, users have high expectations when it comes to the look and feel of the apps they use. That's why we prioritize design and aesthetics in all of our projects.",
+        },
+        {
+          type: "text",
+          value:
+            "Our team of skilled designers and developers work closely together to ensure that every aspect of our apps is carefully crafted to provide the best user experience possible. From the initial wireframes to the final polished design, we take great care to create apps that are not only beautiful but also intuitive and easy to use.",
+        },
+        {
+          type: "text",
+          value:
+            "We believe that a well-designed app can not only attract users but also keep them engaged and coming back for more. That's why we invest a lot of time and effort in researching the latest design trends and incorporating them into our projects.\nIn addition to design, we also prioritize functionality and performance. We understand that users expect apps to be fast, reliable, and efficient. That's why we use the latest technologies and frameworks to create apps that are not only visually stunning but also performant and stable.",
+        },
+        {
+          type: "text",
+          value:
+            "Overall, we are proud of the progress we've made in design and believe that our apps stand out from the competition. We look forward to continuing to innovate and create apps that users love.",
+        },
+      ],
+    },
+  ],
+  inecobank: [
+    {
+      title: "My Role",
+      data: [
+        { type: "text", value: "UX Researcher / UX Designer / UI Designer" },
+      ],
+    },
+    {
+      title: "About",
+      data: [
+        {
+          type: "text",
+          value:
+            "Being one of the leading banks in the Southern Caucasus region, Inecobank CJSC offers full range of banking services, including digital banking solutions to individuals, SMEs and corporate clients.",
+        },
+        {
+          type: "text",
+          value:
+            "The bank was founded on February 7, 1996. Since then, the Bank has been providing unmatched convenience in Armenia by serving more than 520 000 customers. To introduce completely new banking services the Bank has developed and provided industry leading banking solutions in the Armenian market.",
+        },
+        {
+          type: "text",
+          value:
+            "Today the Bank has established correspondent relations with a number of leading banks; and since 1998 it has been cooperating with more than 30 high ranking international financial organizations.",
+        },
+      ],
+    },
+    {
+      title: "Digital Solution",
+      data: [
+        {
+          type: "text",
+          value:
+            "In 2022, Inecobank introduced Apple Pay for iPhone and Apple Watch users, an easier, faster and safer way to make non-cash payments worldwide.",
+        },
+        {
+          type: "text",
+          value:
+            "In 2021, paylater modern payment option was introduced to ensure the trendy Buy Now Pay Later culture in Armenia. It allows you to buy now and pay in parts without additional fees.",
+        },
+        {
+          type: "text",
+          value:
+            "In 2021, Inecobank introduced NFC – the innovative non-cash payment system, which allows you to make fast and contactless payments on your Android smartphone.",
+        },
+        {
+          type: "text",
+          value:
+            'In 2019 the bank introduced new feature - "Transfer to Card", which enables InecoOnline and InecoMobile users to make account-to-card and card-to-card transfers to the cards issued by the banks partnering ArCa system.',
+        },
+        {
+          type: "text",
+          value:
+            "In 2018 the bank was the first in the banking system to launch InecoPay payment system enabling to make payments from smartphones.",
+        },
+        {
+          type: "text",
+          value:
+            "In 2017, the bank was the first to introduce a fully automated consumer lending solution through its mobile and online applications. As a result the loans are provided 24 hours a day, 7 days a week.",
+        },
+        {
+          type: "text",
+          value:
+            "In 2014 the bank launched InecoMobile, its mobile banking application. Currently the application is one of the leading financial applications in the country.",
+        },
+        {
+          type: "text",
+          value:
+            "In 2012, with the introduction of InecoOnline, the bank was one of the first to provide 24/7 banking services to its customers.",
+        },
+        {
+          type: "text",
+          value:
+            "In 2009, the bank digitalized and fully automated the “Point of Sale Loan” product, reducing the loan generation from 3-4 days to a few minutes.",
+        },
+      ],
+    },
+    {
+      title: "Responsibilities",
+      data: [
+        {
+          type: "text",
+          value:
+            "I understand that my role is crucial in creating a successful product that meets the needs and expectations of my target audience. To achieve this, I always start by conducting thorough user research using methods such as surveys, interviews, and observations. Through this process, I identify user needs, behaviors, and pain points, which I analyze to derive patterns and insights.",
+        },
+        {
+          type: "text",
+          value:
+            "With this information, I proceed to determine the information architecture of the product. This step involves creating a sitemap that outlines the structure of the website or app and how users will navigate through it. I always design the information architecture with the user in mind, ensuring that it's easy for them to find the information they need quickly and easily.",
+        },
+        {
+          type: "text",
+          value:
+            "Once I have created the sitemap, I then move to create prototypes and wireframes. These tools are essential for testing and iterating on my design, making it more user-friendly and intuitive. I create an interactive prototype that simulates how users will interact with the product and a wireframe that shows the layout and functionality of each page. These tools enable me to test the product with users and make necessary adjustments to improve the user experience.",
+        },
+      ],
+    },
+    {
+      title: "Final Decision",
+      data: [
+        {
+          type: "text",
+          value:
+            "As a designer, implementing QR payment in a banking app can be a great feature to enhance user experience and streamline transactions. QR payment allows users to make payments by scanning a QR code using their mobile device, making the process quick, easy, and secure.",
+        },
+        {
+          type: "text",
+          value:
+            "To implement QR payment in a banking app, the first step is to integrate a QR code scanner within the app. This scanner should be able to read QR codes from any device and quickly process the payment. The app should also have a feature that allows users to generate QR codes for payments they want to receive.",
+        },
+        {
+          type: "text",
+          value:
+            "To ensure security, the app should have a two-factor authentication process for transactions. This could involve biometric authentication or a PIN code. Additionally, the app should be able to detect fraudulent QR codes and alert the user before processing any transactions.",
+        },
+        {
+          type: "text",
+          value:
+            "To make the feature user-friendly, the app should have a clear and concise interface that guides the user through the payment process. It should also provide real-time feedback on the status of the transaction, including the amount paid, the recipient, and the date and time.",
+        },
+        {
+          type: "text",
+          value:
+            "Overall, implementing QR payment in a banking app can provide numerous benefits for users, including convenience, speed, and security. As a designer, it's important to ensure the feature is easy to use and provides a seamless experience for users.",
+        },
+      ],
+    },
+  ],
 }
 
 /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 */
