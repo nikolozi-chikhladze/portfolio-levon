@@ -31,6 +31,15 @@ const getBannerByTag = tag => {
           formats={["auto", "webp", "avif"]}
         />
       )
+    case "medical-app":
+      return (
+        <StaticImage
+          src={"../../images/work-pages/medical-app/banner.png"}
+          loading="eager"
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+        />
+      )
 
     default:
       break

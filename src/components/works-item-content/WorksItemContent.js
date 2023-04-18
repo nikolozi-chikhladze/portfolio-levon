@@ -82,6 +82,22 @@ const getStaticImage = (jobKey, type) => {
           return (
             <StaticImage src="../../images/work-pages/list-am/ui-system.png" />
           )
+      }
+    case "medical-app":
+      switch (type) {
+        case "banner":
+          return (
+            <StaticImage src="../../images/work-pages/medical-app/banner.png" />
+          )
+        case "analysis":
+          console.log("test")
+          return (
+            <StaticImage src="../../images/work-pages/medical-app/analysis.png" />
+          )
+        case "user-journey":
+          return (
+            <StaticImage src="../../images/work-pages/medical-app/user-journey.png" />
+          )
 
         default:
           break

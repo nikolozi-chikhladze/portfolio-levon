@@ -131,7 +131,7 @@ export const WORKS_DATA = {
   },
   "medical-app": {
     title: "Medical App (iOS) ",
-    link: "/planty-app",
+    link: "/medical-app",
     tag: "medical-app",
   },
   "keeps-me": {
@@ -616,9 +616,154 @@ export const WORKS_DATA_EXPANDED = {
       ],
     },
   ],
+  "medical-app": [
+    {
+      title: "My Role",
+      data: [
+        { type: "text", value: "UX Researcher / UX Designer / UI Designer" },
+      ],
+    },
+    {
+      title: "Pain Points",
+      data: [
+        {
+          type: "text",
+          value:
+            "Medical records are extremely important and sensitive documents that contain a lot of private medical information about a person. These documents are critical for both patients and doctors in terms of receiving and providing accurate medical diagnoses. However, over time, these documents are either lost or misplaced, resulting in the loss of vital information. This has resulted in a total mess for both patients and doctors, which must be resolved.",
+        },
+        {
+          type: "titledSegment",
+          title: "Patients",
+          items: [
+            "Unable to provide medical history in emergency situation",
+            "Carry multiple physical documents for every doctor's visit",
+            "Delayed admission procedure due to unavailability of medical insurance details",
+            "Unavailability of emergency contacts in times of urgency",
+          ],
+        },
+        {
+          type: "titledSegment",
+          title: "Doctors",
+          items: [
+            "Unavailability of patients historical medical data during emergency",
+            "Delay in providing appropriate medical assistance",
+            "Unavailability of patients OPD (Outpatient Department) visit history",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Possible Solution",
+      data: [
+        {
+          type: "text",
+          value:
+            "MedicalApp is an innovative healthcare app that serves as a comprehensive and secure medical partner for patients and healthcare providers. The app provides a digital platform that enables patients to store their medical records in one place, making it easy to access and share their health information with healthcare professionals. The app is designed with advanced features that make it easy for patients to keep track of their health data, including doctor's appointments, medication schedules, test results, and more. Patients can upload and manage their medical records from different sources, such as hospitals, clinics, and labs, eliminating the need for physical copies and saving time and effort.",
+        },
+        {
+          type: "titledSegment",
+          title: "Key Features",
+          items: [
+            "Patients can upload, store & access their Personal Records, Medical Records & Health Insurance records",
+            "Patient can book appointments with doctors from within the app",
+            "Doctor's dashboard allows to easily access patient's Historical Medical Records, Diagnosis & Medical Reports",
+            "QR Scan & Facial Recognition Scan which will allow health care providers to access the user's medical records in an emergency. To ensure user privacy records can only be accessed via an OT sent to the user/emergency contact.",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Research Insights",
+      data: [
+        {
+          type: "text",
+          value:
+            "According to a recent survey conducted by our team, an unexpectedly high percentage of females between the ages of 25 and 60, 41% to be exact, reported using an online doctor consultation mobile application on a regular basis to address various non-emergency health concerns. This finding reveals the increasing acceptance and adoption of telehealth services, especially among the female population. While men also made use of these online medical consultation apps, their usage numbers came in significantly lower at only 28%.\nThe survey results highlight the fact that these types of telehealth and mHealth solutions are becoming an important supplement to in-person doctor visits.",
+        },
+        {
+          type: "text",
+          value:
+            "This study highlights the increasing preference among people for mobile apps. The convenience, ease of use, and customized user experience offered by mobile apps seem to resonate well with users seeking online doctor consultations and medical advice from the comfort of their homes or on the go. Mobile apps are fast emerging as the preferred choice for accessing online healthcare services among the technologically-savvy population. Overall, this study underscores the growing popularity and importance of mobile healthcare apps in enabling patient-doctor interactions and the delivery of virtual care.",
+        },
+        {
+          type: "text",
+          value:
+            "Participants frequently struggle to keep comprehensive and up-to-date medical records, especially when they see multiple doctors across various healthcare networks and systems. As a result, patients often cannot access their important medical information quickly and easily during medical emergencies or when seeing a new physician for the first time. Not having immediate access to their medical records puts patients' health and safety at risk in urgent situations where doctors need to make quick, informed treatment decisions. Patients would benefit greatly from improved medical record-keeping technologies and systems that allow them to maintain complete, centralized, and accessible health records.",
+        },
+        {
+          type: "text",
+          value:
+            "The participant desires an application in which their personal health information, including medical records, health insurance records, test results, and other sensitive health data are securely stored and protected. Having a digital repository of one's health records in a single place would provide numerous benefits, including easy access to information for both the individual and their doctors, simplified sharing of records between healthcare providers, and a comprehensive overview of health metrics and conditions over time. However, given the sensitive nature of health data, privacy and security are of paramount importance.",
+        },
+        {
+          type: "text",
+          value:
+            "App should include variety of doctors from different medical specialties In order to provide the most comprehensive health care services to users, the app should feature doctors and specialists from a wide range of medical fields. Patients should have access to general practitioners as well as specialists in areas like cardiology, oncology, orthopedics, pediatrics, and more. Only by including a diverse set of doctors and medical experts will the app be able to handle the health needs of all users. Having doctors from various cultural and linguistic backgrounds is also important to serve patient populations with different backgrounds. Overall, an app focused on health and wellness should aim to provide an inclusive experience with options for patients of all demographics.",
+        },
+        {
+          type: "text",
+          value:
+            "The participants in the study expressed a desire for an application where they can access patient information and data in an efficient and straightforward manner. Specifically, they want an app that allows doctors, nurses, and other healthcare providers to look up their patients' medical histories, recent vitals, lab test results, and other details important for caring for patients and monitoring their conditions. The healthcare providers need to be able to quickly see an overview of a patient's health status and retrieve key facts about their treatment and condition at any time in order to provide the best possible care. An easy-to-use app that gives clinicians a comprehensive look at patient data would greatly improve their ability to treat patients and enhance the overall patient experience.",
+        },
+      ],
+    },
+    {
+      title: "Competitive Analysis",
+      data: [
+        {
+          type: "text",
+          value:
+            "We conducted an extensive competitive analysis of prominent healthcare applications currently available on the market. This in-depth analysis helps us to thoroughly understand the various weaknesses and strengths of these competing apps, allowing us to gain valuable insights into how our competitors operate and identify potential opportunities where we may be able to outperform them. By closely examining our competitors' offerings, we can determine what features and functionalities they may be lacking that users in the healthcare space are demanding. We can also assess what types of tools and resources they provide to their users that are particularly useful or well-received, so we know what types of high-value features we should incorporate into our own healthcare app. Conducting this competitive research is crucial to developing a healthcare app that stands out from the crowd and provides meaningful value to users. Only by fully grasping the landscape of existing options can we craft an application that avoids the common pitfalls, leverages the latest trends, and introduces innovative new solutions tailored to the needs of healthcare professionals and patients. Our competitive analysis will serve as an indispensable guide as we work to build the next must-have healthcare app.",
+        },
+        {
+          type: "image",
+          tag: "analysis",
+          source: "../../images/work-pages/medical-app/analysis.png",
+        },
+      ],
+    },
+    {
+      title: "User Journey Map",
+      data: [
+        {
+          type: "text",
+          value:
+            "The provided user journey map offers a clear and concise representation of how users will interact with the application. The map starts at the very beginning of a user's journey, highlighting the initial discovery phase and continuing with the process of engagement until the extension phase is reached. It provides a comprehensive overview of the different stages that the user will pass through while interacting with the application, allowing businesses to understand the user experience from start to finish. With this visual illustration, companies can gain insights into how their application is being used and make improvements accordingly to enhance the overall user experience. Based on my analysis, I have identified the crucial interactions and touch points that the user will encounter during their experience with the app. This knowledge has been extremely beneficial in enhancing and optimizing the overall user experience of the app. Essentially, by mapping out the various interactions and touch points, I have gained insight into the user's journey as they navigate the app. This has allowed me to fine-tune the various aspects of the app experience, and ultimately improve user satisfaction and engagement. Furthermore, being able to understand and optimize the user experience is critical in today's competitive business landscape.",
+        },
+        {
+          type: "image",
+          tag: "user-journey",
+          source: "../../images/work-pages/medical-app/user-journey.png",
+        },
+      ],
+    },
+    {
+      title: "Finale UI",
+      data: [
+        {
+          type: "text",
+          value:
+            "The provided user journey map offers a clear and concise representation of how users will interact with the application. The map starts at the very beginning of a user's journey, highlighting the initial discovery phase and continuing with the process of engagement until the extension phase is reached. It provides a comprehensive overview of the different stages that the user will pass through while interacting with the application, allowing businesses to understand the user experience from start to finish. With this visual illustration, companies can gain insights into how their application is being used and make improvements accordingly to enhance the overall user experience. Based on my analysis, I have identified the crucial interactions and touch points that the user will encounter during their experience with the app. This knowledge has been extremely beneficial in enhancing and optimizing the overall user experience of the app. Essentially, by mapping out the various interactions and touch points, I have gained insight into the user's journey as they navigate the app. This has allowed me to fine-tune the various aspects of the app experience, and ultimately improve user satisfaction and engagement. Furthermore, being able to understand and optimize the user experience is critical in today's competitive business landscape.",
+        },
+      ],
+    },
+  ],
 }
 
 /*
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
