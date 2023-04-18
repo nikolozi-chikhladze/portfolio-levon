@@ -1185,9 +1185,82 @@ export const WORKS_DATA_EXPANDED = {
       ],
     },
   ],
+  "hca-healthcare": [
+    {
+      title: "My Role",
+      data: [{ type: "text", value: "UX Designer / UI Designer" }],
+    },
+    {
+      title: "About",
+      data: [
+        {
+          type: "text",
+          value:
+            "HCA Healthcare is an American for-profit operator of health care facilities that was founded in 1968. It is based in Nashville, Tennessee, and, as of May 2020, owns and operates 186 hospitals and approximately 2,000 sites of care, including surgery centers, freestanding emergency rooms, urgent care centers and physician clinics in 21 states and the United Kingdom.[5] As of 2021, HCA Healthcare is ranked #62 on the Fortune 500 rankings of the largest United States corporations by total revenue.[6]",
+        },
+      ],
+    },
+    {
+      title: "Possible Solution",
+      data: [
+        {
+          type: "text",
+          value:
+            "HCA Healthcare created the Sepsis Prediction and Optimization of Therapy (SPOT) platform to collect and analyze clinical data and signal caregivers in real time to initiate early sepsis care. HCA Healthcare used Red Hat open source software to create a scalable, container-based Platform-as-a-Service (PaaS) foundation for SPOT. The group also used Red Hat automation, management, and analytics software to support real-time data collection, analysis, and proactive notification processes.",
+        },
+        {
+          type: "text",
+          value:
+            "Addressing the issues facing HCA Healthcare will require a multi-faceted approach that focuses on improving patient safety, enhancing billing transparency, and improving working conditions for staff.\nTo address patient safety and quality of care concerns, HCA Healthcare should consider implementing additional measures such as increasing staffing levels, investing in employee training and education, and improving communication and collaboration between care teams. The organization should also prioritize ongoing monitoring and review of clinical practices to ensure compliance with industry standards and best practices.\nTo improve billing practices, HCA Healthcare should prioritize transparency and clear communication with patients regarding the cost of services. This may involve implementing pricing transparency initiatives, such as providing patients with detailed breakdowns of the costs associated with their care, as well as increasing efforts to ensure that billing practices are in compliance with relevant regulations and standards.\nTo address concerns regarding staff working conditions, HCA Healthcare should consider increasing staff compensation and benefits, improving scheduling practices to prevent burnout, and investing in employee engagement and retention initiatives.\nOverall, addressing the challenges facing HCA Healthcare will require a commitment to continuous improvement and a willingness to listen to patient feedback and concerns. By prioritizing patient safety, transparency, and employee well-being, HCA Healthcare can take steps towards improving the quality of care and rebuilding trust with patients and stakeholders.",
+        },
+      ],
+    },
+    {
+      title: "Problems",
+      data: [
+        {
+          type: "text",
+          value:
+            "HCA Healthcare has recently faced a range of issues that have raised concerns among patients and stakeholders alike. Specifically, the organization has been grappling with challenges related to patient safety and quality of care, with some reports indicating that medical errors and infections have been linked to their hospitals.\nFurthermore, HCA Healthcare has been the subject of scrutiny with regards to their billing practices, as some patients have alleged that they were charged exorbitant amounts for healthcare services. Additionally, there are concerns regarding the working conditions for staff, including low pay and long hours leading to burnout and high turnover rates.\nAs a potential consumer of healthcare services, these issues are cause for alarm. Trust in healthcare providers is of utmost importance when it comes to seeking care, and HCA Healthcare must prioritize addressing these issues in order to ensure the safety and satisfaction of patients. It is essential that the organization takes these matters seriously and commits to implementing measures to improve the quality of care provided and address the concerns that have been raised.",
+        },
+      ],
+    },
+    {
+      title: "Good Points",
+      data: [
+        {
+          type: "text",
+          value:
+            "There are many things that people love about HCA Healthcare. One of the things that seems to stand out is their commitment to using cutting-edge medical technology and innovative approaches to healthcare. This can be particularly reassuring for patients who are seeking the most advanced treatments and procedures available.\nAdditionally, many people appreciate the high level of care and attention they receive from HCA Healthcare's staff. The organization has a reputation for providing compassionate, patient-centered care that prioritizes the needs and preferences of individuals.\nAnother thing that people seem to love about HCA Healthcare is their wide range of services and specialties. With hospitals and clinics located throughout the country, patients have access to a variety of healthcare options and can receive care for a wide range of conditions and illnesses.\nOverall, it seems that people appreciate HCA Healthcare's focus on providing high-quality care that is personalized to each patient's needs. This, combined with their commitment to innovation and access to a broad range of healthcare services, makes HCA Healthcare a popular choice for many individuals seeking healthcare services.",
+        },
+      ],
+    },
+    {
+      title: "Bad Points",
+      data: [
+        {
+          type: "text",
+          value:
+            "One of the main concerns seems to be related to patient safety and the quality of care provided by the organization. Some patients have reported experiencing medical errors or infections while receiving care at HCA Healthcare facilities, which can be concerning and lead to a lack of trust in the organization.\nAnother issue that some people have raised concerns about is HCA Healthcare's billing practices. Some patients have reported being charged exorbitant amounts for healthcare services, and there have been allegations of overbilling and other billing-related issues. This can be frustrating and can make it difficult for patients to manage the financial aspects of their healthcare.\nFinally, there are some concerns about the working conditions for staff at HCA Healthcare. Some employees have reported low pay, long hours, and high rates of burnout, which can impact the quality of care provided to patients and lead to high staff turnover rates.\nOverall, it seems that people who have negative opinions about HCA Healthcare are primarily concerned with patient safety and the organization's overall commitment to quality care. Additionally, concerns about billing practices and staff working conditions can also contribute to negative perceptions of the organization.",
+        },
+      ],
+    },
+    {
+      title: "Conclusion",
+      data: [
+        {
+          type: "text",
+          value:
+            "In conclusion, opinions about HCA Healthcare are varied and depend largely on personal experiences and knowledge of the healthcare industry. Some people appreciate the organization's commitment to innovation and cutting-edge medical technology, as well as their wide range of services and specialties. However, others have raised concerns about patient safety, quality of care, billing practices, and staff working conditions.\nFrom my perspective, I believe that HCA Healthcare should prioritize patient safety and quality of care above all else. It's essential that patients receive the highest standard of care and feel confident in the care they're receiving. I hope that the organization takes these concerns seriously and works towards improving the quality of care provided to patients.\nAdditionally, I believe that transparency is crucial when it comes to billing practices. Patients should have access to clear and detailed information about the costs associated with their care, and billing practices should be in compliance with relevant regulations and standards.\nFinally, I believe that it's essential for HCA Healthcare to invest in their staff and prioritize their well-being. Providing fair compensation, reducing burnout rates, and investing in employee engagement and retention initiatives can lead to a more positive work environment and ultimately result in better patient outcomes.",
+        },
+      ],
+    },
+  ],
 }
 
 /*
+
+
 
 
 
