@@ -11,6 +11,7 @@ const getBannerByTag = tag => {
           loading="eager"
           quality={100}
           formats={["auto", "webp", "avif"]}
+          className="works-item-banner_image"
         />
       )
     case "roommate":
@@ -20,6 +21,7 @@ const getBannerByTag = tag => {
           loading="eager"
           quality={100}
           formats={["auto", "webp", "avif"]}
+          className="works-item-banner_image"
         />
       )
     case "list-am":
@@ -29,6 +31,7 @@ const getBannerByTag = tag => {
           loading="eager"
           quality={100}
           formats={["auto", "webp", "avif"]}
+          className="works-item-banner_image"
         />
       )
     case "medical-app":
@@ -38,6 +41,7 @@ const getBannerByTag = tag => {
           loading="eager"
           quality={100}
           formats={["auto", "webp", "avif"]}
+          className="works-item-banner_image"
         />
       )
     case "keeps-me":
@@ -47,6 +51,7 @@ const getBannerByTag = tag => {
           loading="eager"
           quality={100}
           formats={["auto", "webp", "avif"]}
+          className="works-item-banner_image"
         />
       )
     case "fin-fly":
@@ -57,6 +62,7 @@ const getBannerByTag = tag => {
           loading="eager"
           quality={100}
           formats={["auto", "webp", "avif"]}
+          className="works-item-banner_image"
         />
       )
     case "novartis":
@@ -67,6 +73,7 @@ const getBannerByTag = tag => {
           loading="eager"
           quality={100}
           formats={["auto", "webp", "avif"]}
+          className="works-item-banner_image"
         />
       )
     case "hca-healthcare":
@@ -77,6 +84,7 @@ const getBannerByTag = tag => {
           loading="eager"
           quality={99}
           formats={["auto", "webp", "avif"]}
+          className="works-item-banner_image"
         />
       )
     case "spvrkd":
@@ -87,6 +95,7 @@ const getBannerByTag = tag => {
           loading="eager"
           quality={99}
           formats={["auto", "webp", "avif"]}
+          className="works-item-banner_image"
         />
       )
     case "inecobank":
@@ -97,6 +106,7 @@ const getBannerByTag = tag => {
           loading="eager"
           quality={99}
           formats={["auto", "webp", "avif"]}
+          className="works-item-banner_image"
         />
       )
 

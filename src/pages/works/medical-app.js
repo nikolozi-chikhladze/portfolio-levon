@@ -8,6 +8,7 @@ import { SegmentContainer } from "../../components/segment-container/SegmentCont
 import { Description } from "../../components/description/Description"
 import { WorksItemContent } from "../../components/works-item-content/WorksItemContent"
 import { Footer } from "../../components/footer/Footer"
+import { WorkNavigation } from "../../components/work-navigation/WorkNavigation"
 
 const JOB_KEY = "medical-app"
 
@@ -20,6 +21,7 @@ const MedicalAppPage = ({ location }) => {
       <WorksItemHeader title={item.title} />
       <WorksItemBanner tag={item.tag} />
       <WorksItemContent content={content} jobKey={JOB_KEY} />
+      <WorkNavigation previous={"/list-am"} next={"/keeps-me"} />
       <Footer />
     </div>
   )
