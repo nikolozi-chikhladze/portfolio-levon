@@ -26,6 +26,7 @@ export const WorksList = () => {
             loading="eager"
             quality={100}
             formats={["auto", "webp", "avif"]}
+            className="works-list_image"
           />
         )
       case "roommate":
@@ -35,6 +36,7 @@ export const WorksList = () => {
             loading="eager"
             quality={100}
             formats={["auto", "webp", "avif"]}
+            className="works-list_image"
           />
         )
       case "list-am":
@@ -44,6 +46,7 @@ export const WorksList = () => {
             loading="eager"
             quality={100}
             formats={["auto", "webp", "avif"]}
+            className="works-list_image"
           />
         )
       case "medical-app":
@@ -53,6 +56,7 @@ export const WorksList = () => {
             loading="eager"
             quality={100}
             formats={["auto", "webp", "avif"]}
+            className="works-list_image"
           />
         )
       case "keeps-me":
@@ -62,6 +66,7 @@ export const WorksList = () => {
             loading="eager"
             quality={100}
             formats={["auto", "webp", "avif"]}
+            className="works-list_image"
           />
         )
       case "fin-fly":
@@ -71,6 +76,7 @@ export const WorksList = () => {
             loading="eager"
             quality={100}
             formats={["auto", "webp", "avif"]}
+            className="works-list_image"
           />
         )
 
@@ -81,6 +87,7 @@ export const WorksList = () => {
             loading="eager"
             quality={100}
             formats={["auto", "webp", "avif"]}
+            className="works-list_image"
           />
         )
       case "hca-healthcare":
@@ -90,15 +97,17 @@ export const WorksList = () => {
             loading="eager"
             quality={100}
             formats={["auto", "webp", "avif"]}
+            className="works-list_image"
           />
         )
-      case "spaarkd":
+      case "spvrkd":
         return (
           <StaticImage
-            src="../../images/works/spaarkd.png"
+            src="../../images/works/spvrkd.png"
             loading="eager"
             quality={100}
             formats={["auto", "webp", "avif"]}
+            className="works-list_image"
           />
         )
       case "inecobank":
@@ -108,6 +117,7 @@ export const WorksList = () => {
             loading="eager"
             quality={100}
             formats={["auto", "webp", "avif"]}
+            className="works-list_image"
           />
         )
       default:

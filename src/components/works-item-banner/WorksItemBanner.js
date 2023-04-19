@@ -82,7 +82,7 @@ const getBannerByTag = tag => {
         <StaticImage
           src={"../../images/work-pages/hca-healthcare/banner.png"}
           loading="eager"
-          quality={99}
+          quality={100}
           formats={["auto", "webp", "avif"]}
           className="works-item-banner_image"
         />
@@ -93,7 +93,7 @@ const getBannerByTag = tag => {
         <StaticImage
           src={"../../images/work-pages/spvrkd/banner.png"}
           loading="eager"
-          quality={99}
+          quality={100}
           formats={["auto", "webp", "avif"]}
           className="works-item-banner_image"
         />
@@ -104,7 +104,7 @@ const getBannerByTag = tag => {
         <StaticImage
           src={"../../images/work-pages/inecobank/banner.png"}
           loading="eager"
-          quality={99}
+          quality={100}
           formats={["auto", "webp", "avif"]}
           className="works-item-banner_image"
         />
