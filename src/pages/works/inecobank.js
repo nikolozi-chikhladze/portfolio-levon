@@ -9,6 +9,7 @@ import { Description } from "../../components/description/Description"
 import { WorksItemContent } from "../../components/works-item-content/WorksItemContent"
 import { Footer } from "../../components/footer/Footer"
 import { WorkNavigation } from "../../components/work-navigation/WorkNavigation"
+import Seo from "../../components/seo"
 
 const JOB_KEY = "inecobank"
 
@@ -26,5 +27,7 @@ const InecobankPage = ({ location }) => {
     </div>
   )
 }
+
+export const Head = () => <Seo title="Inecobank" />
 
 export default InecobankPage

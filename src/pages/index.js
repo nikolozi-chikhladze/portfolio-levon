@@ -35,6 +35,6 @@ const AboutPage = ({ location }) => {
   )
 }
 
-export const Head = () => <Seo title="Page two" />
+export const Head = () => <Seo title="About" />
 
 export default AboutPage

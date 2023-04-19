@@ -9,6 +9,7 @@ import { Description } from "../../components/description/Description"
 import { WorksItemContent } from "../../components/works-item-content/WorksItemContent"
 import { Footer } from "../../components/footer/Footer"
 import { WorkNavigation } from "../../components/work-navigation/WorkNavigation"
+import Seo from "../../components/seo"
 
 const JOB_KEY = "roommate"
 
@@ -26,5 +27,7 @@ const RoommatePage = ({ location }) => {
     </div>
   )
 }
+
+export const Head = () => <Seo title="Roommate" />
 
 export default RoommatePage

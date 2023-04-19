@@ -9,6 +9,7 @@ import { Description } from "../../components/description/Description"
 import { WorksItemContent } from "../../components/works-item-content/WorksItemContent"
 import { Footer } from "../../components/footer/Footer"
 import { WorkNavigation } from "../../components/work-navigation/WorkNavigation"
+import Seo from "../../components/seo"
 
 const JOB_KEY = "keeps-me"
 
@@ -26,5 +27,7 @@ const KeepsMePage = ({ location }) => {
     </div>
   )
 }
+
+export const Head = () => <Seo title="KeepsMe" />
 
 export default KeepsMePage
