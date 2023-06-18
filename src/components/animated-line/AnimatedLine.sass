@@ -1,0 +1,42 @@
+.line
+    background-color: #fff
+    position: absolute
+    z-index: 3
+    animation-duration: 1s
+
+    &-h
+        width: 100%
+        animation-name: horizontalAnimation
+    &-v
+        width: 2px
+        height: 100%
+        opacity: 1
+        animation-name: verticalAnimation
+        animation-duration: 2s
+
+    &-top
+        // height: 10px
+        top: 0
+        left: 0
+    &-bottom
+        bottom: 0
+        background-color: #fff
+        height: 2px
+        left: 0
+    &-left
+        left: 0
+        top: 0
+
+@keyframes horizontalAnimation
+    0%
+        width: 0vw
+    100%
+        width: 100vw
+
+@keyframes verticalAnimation
+    0%
+        height: 0%
+    50%
+        height: 0%
+    100%
+        height: 100%

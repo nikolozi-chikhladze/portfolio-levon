@@ -21,7 +21,6 @@ export const Contact = () => {
                 the following channels:
               </p>
               <p className="contact_text_email">levon.kostandyan@gmail.com</p>
-              <p className="contact_text_number">+374 91 017868</p>
             </div>
             <div className="contact_socials">
               <SocialList />

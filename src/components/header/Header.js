@@ -2,6 +2,8 @@ import React, { useState } from "react"
 import "./header.sass"
 import { navigate } from "gatsby"
 import { useEffect } from "react"
+import AnimatedLine from "../animated-line/AnimatedLine"
+import AnimatedText from "../animated-text/AnimatedText"
 
 const getActiveByLocation = location => {
   if (location.includes("works")) {
@@ -11,14 +13,6 @@ const getActiveByLocation = location => {
   } else {
     return "about"
   }
-  // switch (location) {
-  //   case location.includes("works"):
-  //     return "works"
-  //   case "/contact/":
-  //     return "contact"
-  //   default:
-  //     return "about"
-  // }
 }
 
 export const Header = ({ location }) => {
@@ -36,41 +30,46 @@ export const Header = ({ location }) => {
 
   // TODO - implement scrolling
   return (
-    <div className="header">
-      <span className="header_text-title header_text ">Senior UX Designer</span>
-      <ul className="header_nav">
-        <li
-          onClick={() => {
-            navigate("/")
-          }}
-          className={`header_text header_nav_list-item ${
-            active === "about" && "header_nav_list-item_active"
-          }`}
-        >
-          About
-        </li>
-        <li
-          onClick={() => {
-            navigate("/works")
-          }}
-          className={`header_text header_nav_list-item ${
-            active === "works" && "header_nav_list-item_active"
-          }`}
-        >
-          Works
-        </li>
-        <li
-          onClick={() => {
-            // setActive("contact")
-            navigate("/contact")
-          }}
-          className={`header_text header_nav_list-item ${
-            active === "contact" && "header_nav_list-item_active"
-          }`}
-        >
-          Contact
-        </li>
-      </ul>
+    <div style={{ position: "relative", height: "92px" }}>
+      <div className="header">
+        <AnimatedLine type="h" position="top" variaty="nav-bold" />
+        <span className="header_text-title header_text text">
+          Senior UX Designer
+        </span>
+        <ul className="header_nav">
+          <li
+            onClick={() => navigate("/")}
+            className={`header_text header_nav_list-item ${
+              active === "about" && "header_nav_list-item_active"
+            }`}
+          >
+            <AnimatedLine type="v" position="left" />
+            <AnimatedText>About</AnimatedText>
+            {active === "about" && <div className="navState"></div>}
+          </li>
+          <li
+            onClick={() => navigate("/works")}
+            className={`header_text header_nav_list-item ${
+              active === "works" && "header_nav_list-item_active"
+            }`}
+          >
+            <AnimatedLine type="v" position="left" />
+            <AnimatedText>Works</AnimatedText>
+            {active === "works" && <div className="navState"></div>}
+          </li>
+          <li
+            onClick={() => navigate("/contact")}
+            className={`header_text header_nav_list-item ${
+              active === "contact" && "header_nav_list-item_active"
+            }`}
+          >
+            <AnimatedLine type="v" position="left" />
+            <AnimatedText>Contact</AnimatedText>
+            {active === "contact" && <div className="navState"></div>}
+          </li>
+        </ul>
+        <AnimatedLine type="h" position="bottom" variaty="nav-regular" />
+      </div>
     </div>
   )
 }
