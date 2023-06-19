@@ -1,13 +1,22 @@
 import React from "react"
 import "./SocialList.sass"
+import AnimatedText from "../animated-text/AnimatedText"
 
 export const SocialList = () => {
   return (
     <ul className="social-list">
-      <li>Linkedin</li>
-      <li>Instagram</li>
-      <li>Behance</li>
-      <li>Dribbble</li>
+      <li>
+        <AnimatedText>Linkedin</AnimatedText>
+      </li>
+      <li>
+        <AnimatedText>Instagram</AnimatedText>
+      </li>
+      <li>
+        <AnimatedText>Behance</AnimatedText>
+      </li>
+      <li>
+        <AnimatedText>Dribbble</AnimatedText>
+      </li>
     </ul>
   )
 }
