@@ -5,6 +5,8 @@ import { SegmentContainer } from "../segment-container/SegmentContainer"
 import { EXPERIENCE_DATA } from "../../data"
 import { Description } from "../description/Description"
 import { DescriptionList } from "../description-list/DescriptionList"
+import AnimatedText from "../animated-text/AnimatedText"
+import AnimatedLine from "../animated-line/AnimatedLine"
 
 export const Experience = () => {
   const getDescription = data =>
@@ -13,24 +15,34 @@ export const Experience = () => {
     ))
   return (
     <div className="experience">
-      <Title>Experience</Title>
+      <Title>
+        <AnimatedText>Experience</AnimatedText>
+      </Title>
       <SegmentContainer>
         {EXPERIENCE_DATA.map(data => (
           <div className="experience_container">
-            <div className="details-container">
-              <span className="details-container_company">{data.company}</span>
-              <span className="details-container_position">
-                {data.position}
-              </span>
-              <span className="details-container_date">{data.date}</span>
-            </div>
+            <AnimatedText>
+              <div className="details-container">
+                <span className="details-container_company">
+                  {data.company}
+                </span>
+                <span className="details-container_position">
+                  {data.position}
+                </span>
+                <span className="details-container_date">{data.date}</span>
+              </div>
+            </AnimatedText>
             <div className="text-container">
-              {getDescription(data)}
-              <DescriptionList
-                title={data.text.list.title}
-                items={data.text.list.items}
-              />
+              <AnimatedText>
+                {getDescription(data)}
+                <DescriptionList
+                  title={data.text.list.title}
+                  items={data.text.list.items}
+                />
+              </AnimatedText>
+              <AnimatedLine type="v" position="left" />
             </div>
+            <AnimatedLine type="h" position="bottom" />
           </div>
         ))}
       </SegmentContainer>

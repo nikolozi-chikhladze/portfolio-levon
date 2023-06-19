@@ -8,10 +8,9 @@ import AnimatedLine from "../animated-line/AnimatedLine"
 export const Contact = () => {
   return (
     <div className="contact">
-      <AnimatedText>
-        <Title>Levon Kostandian</Title>
-        {/* <AnimatedLine position="bottom" type="h" /> */}
-      </AnimatedText>
+      <Title>
+        <AnimatedText>Levon Kostandian</AnimatedText>
+      </Title>
       <SegmentContainer>
         <div style={{ display: "flex", flex: 1, position: "relative" }}>
           <AnimatedLine position="right" type="v" />
