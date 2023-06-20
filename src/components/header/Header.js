@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "./header.sass"
+import "./Header.sass"
 import { navigate } from "gatsby"
 import { useEffect } from "react"
 import AnimatedLine from "../animated-line/AnimatedLine"
