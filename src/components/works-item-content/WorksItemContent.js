@@ -4,6 +4,8 @@ import { Description } from "../description/Description"
 import "./WorksItemContent.sass"
 import { StaticImage } from "gatsby-plugin-image"
 import { DescriptionTitledList } from "../description-titled-list/DescriptionTitledList"
+import AnimatedLine from "../animated-line/AnimatedLine"
+import AnimatedText from "../animated-text/AnimatedText"
 
 const getStaticImage = (jobKey, type) => {
   switch (jobKey) {
@@ -130,25 +132,31 @@ export const WorksItemContent = ({ content, jobKey }) => {
     <SegmentContainer>
       {content.map(section => (
         <div className="segment_container">
-          <div className="segment_row1">{section.title}</div>
+          <AnimatedLine type="h" variaty="nav-regular" position="bottom" />
+          <div className="segment_row1">
+            <AnimatedLine type="v" position="right" />
+            <AnimatedText>{section.title}</AnimatedText>
+          </div>
           <div className="segment_row2">
-            {section.data.map(data => {
-              switch (data.type) {
-                case "text":
-                  return <Description>{data.value}</Description>
-                case "titledSegment":
-                  return (
-                    <DescriptionTitledList
-                      title={data.title}
-                      items={data.items}
-                    />
-                  )
-                case "image":
-                  return getStaticImage(jobKey, data.tag)
-                default:
-                  break
-              }
-            })}
+            <AnimatedText>
+              {section.data.map(data => {
+                switch (data.type) {
+                  case "text":
+                    return <Description>{data.value}</Description>
+                  case "titledSegment":
+                    return (
+                      <DescriptionTitledList
+                        title={data.title}
+                        items={data.items}
+                      />
+                    )
+                  case "image":
+                    return getStaticImage(jobKey, data.tag)
+                  default:
+                    break
+                }
+              })}
+            </AnimatedText>
           </div>
         </div>
       ))}

@@ -30,7 +30,7 @@ export const Header = ({ location }) => {
 
   // TODO - implement scrolling
   return (
-    <div style={{ position: "relative", height: "92px" }}>
+    <div style={{ position: "relative" }}>
       <div className="header">
         <AnimatedLine type="h" position="top" variaty="nav-bold" />
         <span className="header_text-title header_text text">

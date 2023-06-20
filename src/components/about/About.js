@@ -23,7 +23,6 @@ export const About = () => {
               className="about_row1_img"
               src="../../images/Rectangle.svg"
               loading="eager"
-              // width={64}
               quality={100}
               formats={["auto", "webp", "avif"]}
               alt=""

@@ -1,6 +1,8 @@
 import React from "react"
 import "./WorksItemBanner.sass"
 import { StaticImage } from "gatsby-plugin-image"
+import AnimatedText from "../animated-text/AnimatedText"
+import AnimatedLine from "../animated-line/AnimatedLine"
 
 const getBannerByTag = tag => {
   switch (tag) {
@@ -117,6 +119,9 @@ const getBannerByTag = tag => {
 
 export const WorksItemBanner = ({ tag }) => {
   return (
-    <div className="works-item-banner_container">{getBannerByTag(tag)}</div>
+    <div className="works-item-banner_container">
+      <AnimatedLine type="v" position="right" />
+      <AnimatedText>{getBannerByTag(tag)}</AnimatedText>
+    </div>
   )
 }

@@ -3,8 +3,6 @@ import "./SegmentContainer.sass"
 import AnimatedLine from "../animated-line/AnimatedLine"
 export const SegmentContainer = ({ children, noWrap = false }) => {
   return (
-    // <div style={{ position: "relative", display: "flex" }}>
-
     <div
       className={
         !noWrap
@@ -19,7 +17,5 @@ export const SegmentContainer = ({ children, noWrap = false }) => {
       {children}
       <AnimatedLine position="bottom" type="h" />
     </div>
-
-    // </div>
   )
 }

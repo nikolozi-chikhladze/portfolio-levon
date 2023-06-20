@@ -1,6 +1,8 @@
 import React from "react"
 import "./WorkNavigation.sass"
 import { navigate } from "gatsby"
+import AnimatedLine from "../animated-line/AnimatedLine"
+import AnimatedText from "../animated-text/AnimatedText"
 export const WorkNavigation = ({ previous, next }) => {
   const onPress = direction => () => {
     console.log(direction, next)
@@ -13,6 +15,7 @@ export const WorkNavigation = ({ previous, next }) => {
   }
   return (
     <div className="work-navigation_container">
+      <AnimatedLine type="h" position="bottom" variaty="nav-regular" />
       <div
         onClick={onPress("previous")}
         className={
@@ -21,7 +24,8 @@ export const WorkNavigation = ({ previous, next }) => {
             : "work-navigation_button work-navigation_button_disabled"
         }
       >
-        Previous Work
+        <AnimatedText>Previous Work</AnimatedText>
+        <AnimatedLine type="v" position="right" />
       </div>
       <div
         onClick={onPress("next")}
@@ -31,7 +35,9 @@ export const WorkNavigation = ({ previous, next }) => {
             : "work-navigation_button work-navigation_button_disabled"
         }
       >
-        Next Work
+        <AnimatedText>Next Work</AnimatedText>
+        <AnimatedLine type="v" position="left" />
+        <AnimatedLine type="v" position="right" />
       </div>
     </div>
   )

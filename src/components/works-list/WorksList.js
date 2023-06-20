@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useLayoutEffect, useState } from "react"
 import "./WorksList.sass"
 import { Title } from "../title/Title"
 import { SegmentContainer } from "../segment-container/SegmentContainer"
@@ -6,9 +6,23 @@ import { StaticImage } from "gatsby-plugin-image"
 import { WORKS_DATA_VALUES } from "../../data"
 import { Footer } from "../footer/Footer"
 import { navigate } from "gatsby"
+import AnimatedLine from "../animated-line/AnimatedLine"
+import AnimatedText from "../animated-text/AnimatedText"
 
 export const WorksList = () => {
   const [selectedElement, setSelectedElement] = useState(null)
+  const [timeoutPassed, setTimeoutPassed] = useState(false)
+
+  useLayoutEffect(() => {
+    const timeout = setTimeout(() => {
+      setTimeoutPassed(true)
+    }, 4000)
+
+    return () => {
+      clearTimeout(timeout)
+    }
+  }, [])
+
   const onElementHover = tag => () => {
     console.log("hover")
     setSelectedElement(tag)
@@ -128,17 +142,24 @@ export const WorksList = () => {
   const getListItems = () =>
     WORKS_DATA_VALUES.map(data => (
       <li
-        onMouseEnter={onElementHover(data.tag)}
-        className="works-list_list-item"
+        onMouseEnter={timeoutPassed ? onElementHover(data.tag) : null}
+        className={
+          timeoutPassed
+            ? "works-list_list-item works-list_list-item-hover"
+            : "works-list_list-item"
+        }
         onClick={navigateToItem(data.link)}
       >
-        <span>{data.title}</span>
+        <AnimatedText>
+          <span>{data.title}</span>
+        </AnimatedText>
         <StaticImage
           src="../../images/arrow-right.svg"
           loading="eager"
           quality={100}
           formats={["auto", "webp", "avif"]}
         />
+        <AnimatedLine position="bottom" type="h" />
       </li>
     ))
   const navigateToItem = link => () => {
@@ -146,10 +167,13 @@ export const WorksList = () => {
   }
   return (
     <div className="works-list_container">
-      <Title>Levon Kostandian</Title>
+      <Title>
+        <AnimatedText>Levon Kostandian</AnimatedText>
+      </Title>
       <SegmentContainer>
         <div className="works-list_row1">{getStaticImage()}</div>
         <div className="works-list_row2">
+          <AnimatedLine position="left" type="v" />
           <ul onMouseLeave={onElementsLeave} className="works-list_list">
             {getListItems()}
           </ul>

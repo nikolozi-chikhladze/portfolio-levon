@@ -3,6 +3,8 @@ import "./WorksItemHeader.sass"
 import { StaticImage } from "gatsby-plugin-image"
 import { Title } from "../title/Title"
 import { navigate } from "gatsby"
+import AnimatedText from "../animated-text/AnimatedText"
+import AnimatedLine from "../animated-line/AnimatedLine"
 
 export const WorksItemHeader = ({ title, link }) => {
   const navigateBack = () => {
@@ -10,19 +12,29 @@ export const WorksItemHeader = ({ title, link }) => {
   }
   return (
     <div className="works-item-header_container">
+      <AnimatedLine type="h" position="bottom" variaty="nav-regular" />
       <div className="works-item-header_back" onClick={navigateBack}>
-        <StaticImage
-          src="../../images/arrow-left.svg"
-          loading="eager"
-          quality={100}
-          formats={["auto", "webp", "avif"]}
-        />
+        <AnimatedLine type="v" position="right" />
+        <AnimatedText>
+          <StaticImage
+            src="../../images/arrow-left.svg"
+            loading="eager"
+            quality={100}
+            formats={["auto", "webp", "avif"]}
+          />
+        </AnimatedText>
       </div>
       <div className="works-item-header_title">
-        <Title>{title}</Title>
+        <Title>
+          <AnimatedText>{title}</AnimatedText>
+        </Title>
       </div>
       <div className="works-item-header_link">
-        <span>See full case study</span>
+        <AnimatedLine type="v" position="left" />
+        <AnimatedLine type="v" position="right" />
+        <span>
+          <AnimatedText>See full case study</AnimatedText>
+        </span>
       </div>
     </div>
   )
